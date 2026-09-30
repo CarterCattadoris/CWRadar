@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "cwradar") (type "KiCad") (uri "/home/eon/Formula/CWRadar/library/footprints/cwradar.pretty") (options "") (descr ""))
+)
