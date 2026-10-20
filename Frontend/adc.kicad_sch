@@ -1,0 +1,88 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1e31a7ac-79fb-5e26-938d-fca76d43adc3")
+	(paper "A3")
+	(title_block
+		(title "ADC")
+		(date "2026-10-15")
+		(rev "V1")
+		(company "Senior Design")
+		(comment 1 "Carter Cattadoris")
+	)
+	(lib_symbols
+	)
+	(hierarchical_label "ADC_L"
+		(shape input)
+		(at 50.8 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d5a8298-fb6d-4d12-a90e-c74ffb0cb334")
+	)
+	(hierarchical_label "ADC_R"
+		(shape input)
+		(at 50.8 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0d97d55-0201-47a7-81e3-c5858b36b9ac")
+	)
+	(hierarchical_label "I2S_MCLK"
+		(shape input)
+		(at 50.8 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95368671-5d0e-457e-9264-951d7cb7f0ba")
+	)
+	(hierarchical_label "I2S_BCK"
+		(shape bidirectional)
+		(at 50.8 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7b2a2c2-72b2-4f03-b8a1-e14ebe5da2f8")
+	)
+	(hierarchical_label "I2S_LRCK"
+		(shape bidirectional)
+		(at 50.8 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62a443d9-3b93-48fc-8e6b-64f8dcbb1128")
+	)
+	(hierarchical_label "I2S_DOUT"
+		(shape output)
+		(at 50.8 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34be02a8-ddab-4e23-a580-ded4821daa58")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

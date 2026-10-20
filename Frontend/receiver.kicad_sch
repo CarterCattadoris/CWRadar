@@ -1,0 +1,88 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2ff6f13c-7e29-55e4-9704-668b8efecaf0")
+	(paper "A3")
+	(title_block
+		(title "Receiver")
+		(date "2026-10-15")
+		(rev "V1")
+		(company "Senior Design")
+		(comment 1 "Carter Cattadoris")
+	)
+	(lib_symbols
+	)
+	(hierarchical_label "LO_P"
+		(shape input)
+		(at 50.8 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e14a8032-be51-434a-85db-6f7f752f4d83")
+	)
+	(hierarchical_label "LO_N"
+		(shape input)
+		(at 50.8 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5597fc11-6f99-451f-8377-05a2f0b7c43d")
+	)
+	(hierarchical_label "I_P"
+		(shape output)
+		(at 152.4 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90a1a999-1948-4e59-a495-701f1671fd47")
+	)
+	(hierarchical_label "I_N"
+		(shape output)
+		(at 152.4 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d39cee55-63ce-4fbe-8a4c-996102075c78")
+	)
+	(hierarchical_label "Q_P"
+		(shape output)
+		(at 152.4 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b82ecae-f47d-4bd0-9651-d676ec6971e7")
+	)
+	(hierarchical_label "Q_N"
+		(shape output)
+		(at 152.4 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01c8fae8-c660-4d09-9af5-f31fc27742f9")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

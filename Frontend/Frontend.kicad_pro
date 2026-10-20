@@ -287,9 +287,30 @@
       },
       {
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(72, 72, 72)",
         "priority": 0,
         "schematic_color": "rgb(72, 72, 72)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Power",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 0, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "RF",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 0, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SPI",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 0, 255)",
         "tuning_profile": ""
       }
     ],
@@ -302,6 +323,42 @@
       {
         "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*/RFOUT*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*/TX_RF"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*/MON_RF"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*/LO_*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*/SYN_SCK*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*/SYN_MOSI*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*/SYN_LE*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*/SYN_MISO"
       }
     ]
   },
@@ -318,7 +375,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 1,
       "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",

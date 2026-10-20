@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fb23667c-c6c1-5e9a-b6e8-8cf8dde1a107")
+	(paper "A3")
+	(title_block
+		(title "Regulators")
+		(date "2026-10-15")
+		(rev "V1")
+		(company "Senior Design")
+		(comment 1 "Carter Cattadoris")
+	)
+	(lib_symbols
+	)
+	(hierarchical_label "VBAT_SENSE"
+		(shape output)
+		(at 152.4 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "342a2dc3-de42-4862-bc4d-8036ca66a9fa")
+	)
+	(hierarchical_label "EN_ANALOG"
+		(shape input)
+		(at 152.4 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2d9fd2e-8326-4fb4-8fd3-92c634e38bbf")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

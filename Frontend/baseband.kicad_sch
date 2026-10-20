@@ -1,0 +1,55 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "25e684cf-ab7c-50ab-bae5-741d18f7d553")
+	(paper "A3")
+	(title_block
+		(title "Baseband")
+		(date "2026-10-15")
+		(rev "V1")
+		(company "Senior Design")
+		(comment 1 "Carter Cattadoris")
+	)
+	(lib_symbols
+	)
+	(hierarchical_label "IN_P"
+		(shape input)
+		(at 50.8 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0fc99c43-6e1c-49cd-87c0-8e63f59c3617")
+	)
+	(hierarchical_label "IN_N"
+		(shape input)
+		(at 50.8 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "042161b0-5005-4286-ba8b-9e5b25221da0")
+	)
+	(hierarchical_label "OUT"
+		(shape output)
+		(at 152.4 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "144bd396-eeb5-4aa0-8eb5-c6f16b3498c1")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

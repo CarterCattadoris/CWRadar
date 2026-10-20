@@ -1,0 +1,22 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d6570329-6e29-5a87-a005-47aab81c8947")
+	(paper "A3")
+	(title_block
+		(title "User_IO")
+		(date "2026-10-15")
+		(rev "V1")
+		(company "Senior Design")
+		(comment 1 "Carter Cattadoris")
+	)
+	(lib_symbols
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,231 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e12ee8d5-e838-5edb-8c5e-0c62a5bacdb5")
+	(paper "A3")
+	(title_block
+		(title "MCU")
+		(date "2026-10-15")
+		(rev "V1")
+		(company "Senior Design")
+		(comment 1 "Carter Cattadoris")
+	)
+	(lib_symbols
+	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 50.8 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "028abeb6-40f5-4979-bd33-e5ad05f08f62")
+	)
+	(hierarchical_label "USB_DN"
+		(shape bidirectional)
+		(at 50.8 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91f369a5-31dc-42b5-be28-7f9cec41e4b0")
+	)
+	(hierarchical_label "CHG_SDA"
+		(shape bidirectional)
+		(at 50.8 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00475efc-8f3f-4b10-9027-6c5c9046fd36")
+	)
+	(hierarchical_label "CHG_SCL"
+		(shape output)
+		(at 50.8 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77596b4e-ed26-432d-828d-8a8d3ebdfbe4")
+	)
+	(hierarchical_label "CHG_INT"
+		(shape input)
+		(at 50.8 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c73dd4e-2bbf-43eb-a394-b158a1d954eb")
+	)
+	(hierarchical_label "CHG_STAT"
+		(shape input)
+		(at 50.8 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa392734-c1ec-4402-98f7-15e5ceeea9d8")
+	)
+	(hierarchical_label "VBAT_SENSE"
+		(shape input)
+		(at 50.8 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d4ad1b0-0a69-4b0c-b1cb-bc9d7f2d2579")
+	)
+	(hierarchical_label "EN_ANALOG"
+		(shape output)
+		(at 50.8 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d2921b2-f1fa-495b-bbc6-c00f5838eaaf")
+	)
+	(hierarchical_label "SYN_SCK"
+		(shape output)
+		(at 152.4 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bca515e-a370-43d4-9e55-9aac5e66fec6")
+	)
+	(hierarchical_label "SYN_MOSI"
+		(shape output)
+		(at 152.4 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e9dff1a-2880-4caa-8940-162e0d5f0b1f")
+	)
+	(hierarchical_label "SYN_MISO"
+		(shape input)
+		(at 152.4 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fd69ebd-a4a6-4214-96b9-f646b57a812e")
+	)
+	(hierarchical_label "SYN_LE"
+		(shape output)
+		(at 152.4 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6898c98-519c-43aa-9c25-0c7e3110ca64")
+	)
+	(hierarchical_label "SYN_CE"
+		(shape output)
+		(at 152.4 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dacbc982-3b20-4259-a019-bd5e0cd28137")
+	)
+	(hierarchical_label "SYN_RFOUT_EN"
+		(shape output)
+		(at 152.4 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8480bbc-d6c3-4762-b3cb-2a1018710cd4")
+	)
+	(hierarchical_label "SYN_LD"
+		(shape input)
+		(at 152.4 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30b4b5ae-7ce5-424c-b401-58192a0b66e3")
+	)
+	(hierarchical_label "I2S_MCLK"
+		(shape output)
+		(at 152.4 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3023e8a6-f967-436e-90be-5bd9aacedf10")
+	)
+	(hierarchical_label "I2S_BCK"
+		(shape bidirectional)
+		(at 152.4 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c20d18e4-74e0-4589-85ef-c58659a25856")
+	)
+	(hierarchical_label "I2S_LRCK"
+		(shape bidirectional)
+		(at 152.4 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "538ddc02-6741-4c08-bbca-ab66da6e53ca")
+	)
+	(hierarchical_label "I2S_DOUT"
+		(shape input)
+		(at 152.4 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc67c681-bfa0-4d44-83f1-dde37c44c7bc")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,88 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cd8d44ef-5463-590f-bcbd-3d3ea43f1c80")
+	(paper "A3")
+	(title_block
+		(title "Battery_Charger")
+		(date "2026-10-15")
+		(rev "V1")
+		(company "Senior Design")
+		(comment 1 "Carter Cattadoris")
+	)
+	(lib_symbols
+	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 152.4 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "250400d0-8b89-4b07-8dd7-5e60b7ac3c7e")
+	)
+	(hierarchical_label "USB_DN"
+		(shape bidirectional)
+		(at 152.4 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99944028-3a5e-4336-8fe1-7740a33f5417")
+	)
+	(hierarchical_label "CHG_SDA"
+		(shape bidirectional)
+		(at 152.4 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2472cb62-52f0-40c6-98f0-5bd99c79bf8a")
+	)
+	(hierarchical_label "CHG_SCL"
+		(shape input)
+		(at 152.4 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "203074e8-4804-4b75-9c65-1eacfe35156d")
+	)
+	(hierarchical_label "CHG_INT"
+		(shape output)
+		(at 152.4 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f37f6a6b-e10d-476a-88ef-71738c7181d6")
+	)
+	(hierarchical_label "CHG_STAT"
+		(shape output)
+		(at 152.4 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a3e35ed-c44c-4000-b215-59ebd940acdb")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
