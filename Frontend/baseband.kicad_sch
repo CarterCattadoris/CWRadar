@@ -22,7 +22,7 @@
 			)
 			(justify right)
 		)
-		(uuid "0fc99c43-6e1c-49cd-87c0-8e63f59c3617")
+		(uuid "a1e6803d-3276-5382-9544-9300d9037fa7")
 	)
 	(hierarchical_label "IN_N"
 		(shape input)
@@ -33,7 +33,7 @@
 			)
 			(justify right)
 		)
-		(uuid "042161b0-5005-4286-ba8b-9e5b25221da0")
+		(uuid "3400eb15-d416-51b9-853a-63fe318bff09")
 	)
 	(hierarchical_label "OUT"
 		(shape output)
@@ -44,7 +44,7 @@
 			)
 			(justify left)
 		)
-		(uuid "144bd396-eeb5-4aa0-8eb5-c6f16b3498c1")
+		(uuid "8757883f-06ee-5e96-acae-6be5dc77bb64")
 	)
 	(sheet_instances
 		(path "/"

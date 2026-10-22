@@ -22,7 +22,7 @@
 			)
 			(justify right)
 		)
-		(uuid "5d5a8298-fb6d-4d12-a90e-c74ffb0cb334")
+		(uuid "883c6fdd-242e-5078-97d4-014f0974e113")
 	)
 	(hierarchical_label "ADC_R"
 		(shape input)
@@ -33,7 +33,7 @@
 			)
 			(justify right)
 		)
-		(uuid "b0d97d55-0201-47a7-81e3-c5858b36b9ac")
+		(uuid "e14a6571-782c-5d56-b352-3832652b3e40")
 	)
 	(hierarchical_label "I2S_MCLK"
 		(shape input)
@@ -44,7 +44,7 @@
 			)
 			(justify right)
 		)
-		(uuid "95368671-5d0e-457e-9264-951d7cb7f0ba")
+		(uuid "191911d0-e126-5d31-8a9f-8d4f52ef4b37")
 	)
 	(hierarchical_label "I2S_BCK"
 		(shape bidirectional)
@@ -55,7 +55,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f7b2a2c2-72b2-4f03-b8a1-e14ebe5da2f8")
+		(uuid "ec5fc32d-242b-5d52-a2d3-dbae2c8a3f30")
 	)
 	(hierarchical_label "I2S_LRCK"
 		(shape bidirectional)
@@ -66,7 +66,7 @@
 			)
 			(justify right)
 		)
-		(uuid "62a443d9-3b93-48fc-8e6b-64f8dcbb1128")
+		(uuid "6d01c9b8-fe3e-5bfb-a7ce-926a170dcdfa")
 	)
 	(hierarchical_label "I2S_DOUT"
 		(shape output)
@@ -77,7 +77,7 @@
 			)
 			(justify right)
 		)
-		(uuid "34be02a8-ddab-4e23-a580-ded4821daa58")
+		(uuid "4f701aec-8e91-5a4a-b099-5f06657ae5aa")
 	)
 	(sheet_instances
 		(path "/"

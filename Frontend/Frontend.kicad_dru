@@ -1,0 +1,65 @@
+(version 1)
+
+# JLCPCB JLC04161H-7628 4-layer, no-surcharge limits with margin.
+# Net class names: RF = 50 ohm CPWG (L1 over L2), USB_90, ANALOG_BB, Power, PWR_BATT.
+
+(rule "PTH to track"
+  (constraint hole_clearance (min 0.35mm))
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole' && B.Type == 'Track'"))
+
+(rule "Hole to hole, different nets"
+  (constraint hole_to_hole (min 0.55mm))
+  (condition "A.Net != B.Net"))
+
+(rule "PTH pad annular ring"
+  (constraint annular_width (min 0.25mm))
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'"))
+
+(rule "NPTH minimum"
+  (constraint hole_size (min 0.5mm))
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical'"))
+
+(rule "Pad to track"
+  (constraint clearance (min 0.2mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Track'"))
+
+(rule "No micro or blind/buried vias"
+  (constraint disallow micro_via buried_via))
+
+(rule "RF_50 width"
+  (condition "A.NetClass == 'RF'")
+  (constraint track_width (min 0.25mm) (opt 0.29mm) (max 0.30mm)))
+
+(rule "RF_50 CPWG gap"
+  (constraint clearance (min 0.20mm))
+  (condition "A.NetClass == 'RF' && B.Type == 'Zone'"))
+
+(rule "LO pair skew"
+  (condition "A.NetClass == 'RF' && A.inDiffPair('/Receiver/LO_*')")
+  (constraint skew (max 0.1mm)))
+
+(rule "USB_90 pair"
+  (condition "A.NetClass == 'USB_90'")
+  (constraint track_width (opt 0.20mm))
+  (constraint diff_pair_gap (opt 0.12mm))
+  (constraint diff_pair_uncoupled (max 3mm)))
+
+(rule "USB_90 pour keepback"
+  (constraint clearance (min 0.5mm))
+  (condition "A.NetClass == 'USB_90' && B.Type == 'Zone'"))
+
+# Edge-launch SMAs (Molex 73251-1153) sit on the board edge.
+(rule "SMA edge launch"
+  (constraint edge_clearance (min 0mm))
+  (condition "A.memberOfFootprint('J6*') || A.memberOfFootprint('J7*')"))
+
+# 0.5 mm-pitch IC pins: the pad gap is 0.24 mm, below the ANALOG_BB class clearance (0.25).
+# Inside the IC courtyards clearance falls back to 0.15 mm (JLC min 0.09).
+(rule "Fine-pitch IC escape"
+  (constraint clearance (min 0.15mm))
+  (condition "A.intersectsCourtyard('DEMOD701') || A.intersectsCourtyard('PLL601')"))
+
+# EP thermal vias (0.6/0.3) in the MAX2871 and ADL5380 footprints are vias, not component PTH pads.
+(rule "EP thermal vias"
+  (constraint annular_width (min 0.15mm))
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole' && (A.memberOfFootprint('PLL*') || A.memberOfFootprint('DEMOD*'))"))

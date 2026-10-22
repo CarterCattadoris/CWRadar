@@ -22,7 +22,7 @@
 			)
 			(justify left)
 		)
-		(uuid "342a2dc3-de42-4862-bc4d-8036ca66a9fa")
+		(uuid "7e55ebb3-1bb7-59ca-8e3f-5c52490d8dbd")
 	)
 	(hierarchical_label "EN_ANALOG"
 		(shape input)
@@ -33,7 +33,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f2d9fd2e-8326-4fb4-8fd3-92c634e38bbf")
+		(uuid "7b07ff21-07bb-5b31-bd38-60014294e5f8")
 	)
 	(sheet_instances
 		(path "/"

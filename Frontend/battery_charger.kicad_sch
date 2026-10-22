@@ -22,7 +22,7 @@
 			)
 			(justify left)
 		)
-		(uuid "250400d0-8b89-4b07-8dd7-5e60b7ac3c7e")
+		(uuid "4587d64b-9834-5688-a276-3e12e311db60")
 	)
 	(hierarchical_label "USB_DN"
 		(shape bidirectional)
@@ -33,7 +33,7 @@
 			)
 			(justify left)
 		)
-		(uuid "99944028-3a5e-4336-8fe1-7740a33f5417")
+		(uuid "2db6b909-7423-59a3-965d-4db1ee195e08")
 	)
 	(hierarchical_label "CHG_SDA"
 		(shape bidirectional)
@@ -44,7 +44,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2472cb62-52f0-40c6-98f0-5bd99c79bf8a")
+		(uuid "350f39ec-d112-5a36-8978-55cb326410dc")
 	)
 	(hierarchical_label "CHG_SCL"
 		(shape input)
@@ -55,7 +55,7 @@
 			)
 			(justify left)
 		)
-		(uuid "203074e8-4804-4b75-9c65-1eacfe35156d")
+		(uuid "723e8c23-0a3c-5aab-8700-99dbd2c9dc78")
 	)
 	(hierarchical_label "CHG_INT"
 		(shape output)
@@ -66,7 +66,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f37f6a6b-e10d-476a-88ef-71738c7181d6")
+		(uuid "a2c9d644-e993-53c1-975d-2b745c196129")
 	)
 	(hierarchical_label "CHG_STAT"
 		(shape output)
@@ -77,7 +77,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2a3e35ed-c44c-4000-b215-59ebd940acdb")
+		(uuid "015f986e-1304-597e-a37d-b7ae021a3f9a")
 	)
 	(sheet_instances
 		(path "/"
