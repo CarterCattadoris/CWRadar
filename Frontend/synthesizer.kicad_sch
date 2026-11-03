@@ -321,161 +321,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "cwradar:+3V3_SYN"
 			(power global)
 			(pin_numbers
@@ -1743,7 +1588,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1765,7 +1610,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "YAGEO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1776,7 +1621,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" ""
+			(property "Mfg Part #" "RC0402FR-07100KL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1787,7 +1632,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2150,7 +1995,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/film-cap-electroequip/models/ECHU1H104GX9"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2194,7 +2039,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/panasonic-industry/ECH-U1H104GX9/1630897"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2360,7 +2205,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B103KB5NNN_Spec.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2371,7 +2216,7 @@
 					)
 				)
 			)
-			(property "Description" "10 nF ±10% X7R 0402"
+			(property "Description" "10 nF ±10% 50V X7R 0402"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2382,7 +2227,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "Samsung"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2393,7 +2238,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" ""
+			(property "Mfg Part #" "CL05B103KB5NNNC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2404,7 +2249,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2778,7 +2623,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2800,7 +2645,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "YAGEO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2811,7 +2656,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" ""
+			(property "Mfg Part #" "RC0402FR-07120RL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2822,7 +2667,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07120RL/726535"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2975,7 +2820,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2986,7 +2831,7 @@
 					)
 				)
 			)
-			(property "Description" "12 nF ±5% C0G 0603"
+			(property "Description" "12 nF ±5% 25V C0G 0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2997,7 +2842,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "KEMET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3008,7 +2853,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" ""
+			(property "Mfg Part #" "C0603C123J3GACTU"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3019,7 +2864,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/kemet/C0603C123J3GACTU/2199873"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3185,7 +3030,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3196,7 +3041,7 @@
 					)
 				)
 			)
-			(property "Description" "1 nF ±5% C0G 0402"
+			(property "Description" "1 nF ±5% 50V C0G 0402"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3207,7 +3052,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "Murata"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3218,7 +3063,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" ""
+			(property "Mfg Part #" "GRM1555C1H102JA01D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3229,7 +3074,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H102JA01D/702509"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3395,7 +3240,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3417,7 +3262,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "Samsung"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3428,7 +3273,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" ""
+			(property "Mfg Part #" "CL05A105KP5NNNC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3439,7 +3284,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3603,7 +3448,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3625,7 +3470,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "YAGEO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3636,7 +3481,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" ""
+			(property "Mfg Part #" "RC0402FR-07249RL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3647,7 +3492,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07249RL/2827604"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3755,6 +3600,216 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "cwradar:2p2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2p2"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H2R2BB01-01A-EN_PDF_CERAMICCAPACITORSMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.2 pF ±0.1 pF 50V C0G 0402, high-Q, series-resonant ~5.8 GHz"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfg Part #" "GJM1555C1H2R2BB01D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor Link 2" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2p2_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2p2_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "cwradar:47"
 			(pin_numbers
 				(hide yes)
@@ -3798,7 +3853,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3820,7 +3875,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "YAGEO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3831,7 +3886,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" ""
+			(property "Mfg Part #" "RC0402FR-0747RL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3842,7 +3897,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0747RL/2827566"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3993,7 +4048,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4015,7 +4070,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "YAGEO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4026,7 +4081,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" ""
+			(property "Mfg Part #" "RC0402FR-0749R9L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4037,7 +4092,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0749R9L/726621"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4188,7 +4243,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4210,7 +4265,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "YAGEO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4221,7 +4276,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" ""
+			(property "Mfg Part #" "RC0402FR-075K1L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4232,7 +4287,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-075K1L/726624"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4385,7 +4440,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4396,7 +4451,7 @@
 					)
 				)
 			)
-			(property "Description" "820 pF ±5% C0G 0402"
+			(property "Description" "820 pF ±5% 50V C0G 0402"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4407,7 +4462,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "Murata"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4418,7 +4473,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" ""
+			(property "Mfg Part #" "GRM1555C1H821JA01D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4429,7 +4484,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H821JA01D/702507"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7247,7 +7302,7 @@
 		)
 		(uuid "85537c51-b710-5891-99c7-de4f7f4c90c0")
 	)
-	(text "MAX2871 NOTES (DS Rev 4)\n- One 1u 10V X5R 0402 on every supply pin (C607-C609, C611-C613), branch caps C602/C603 and NOISE_FILT/BIAS_FILT/REG (C614-C616).\n  Place each 1u directly at its pin, own GND via at or in the pad. Check the part's DC-bias curve at 3.3V; no Y5V.\n- C610: C0G 0402 on VCC_RF, series-resonant at 5.8 GHz when mounted (~1-3 pF, from vendor S-params), closest to pin 16.\n- C618-C621 DC blocks: 0402 C0G near series resonance at 5.8 GHz. R605-R607 47R series: place at the ESP32 end.\n- R608/R609 100k hold CE/RFOUT_EN low at boot.\n- Loop filter C622/R616/C623/R617/C624 = MAX2871 DS Rev 4 TOC table \"6.0 GHz closed-loop\n  phase noise\" config: fREF 50 MHz, fPFD 25 MHz, ~40 kHz BW, CP[3:0]=1111 (5.12 mA w/ RSET 5k1),\n  integer N=240. Ours: N=232 @ fPFD 25 MHz. Confirm Kvco @ 5.8 GHz in ADIsimPLL. All loop-filter caps C0G/film.\n- Firmware: program all regs twice at power-up (>=20 ms gap, order 5..0), RFA_EN/RFB_EN = 0 until second\n  pass; set MTLD=1 (reg4 b10) and MUTEDEL=1 (reg3 b17) so outputs mute when unlocked. PDP=1.\n- VCC_VCO on dedicated branch +3V3_SYN_VCO (R618). Pull-up node HF caps C626/C627 C0G series-resonant.\n- R612 (50R term) or J602 (SMA monitor): populate one. J601/J602: Molex 73251-1153 edge-launch SMA.\n- Bead-free star: R601-R603 0R 0603 branch links (fallback filter footprints). R604 10R + C604 10u = TCXO RC, fc ~1.6 kHz.\n- +3V3_SYN from dedicated low-noise LDO (TBD); LC/pi filter at LDO input if fed from a switcher. REF_25M from TCXO (TBD).\n- GND pins 8,9,11,18,21,27,31: own via each, not to EP. EP: >=9-via array."
+	(text "MAX2871 NOTES (DS Rev 4)\n- One 1u 10V X5R 0402 on every supply pin (C607-C609, C611-C613), branch caps C602/C603 and NOISE_FILT/BIAS_FILT/REG (C614-C616).\n  Place each 1u directly at its pin, own GND via at or in the pad. Check the part's DC-bias curve at 3.3V; no Y5V.\n- C610: 2.2 pF GJM1555C1H2R2BB01D on VCC_RF (series-resonant ~5.8 GHz), closest to pin 16.\n- C618-C621 DC blocks: 2.2 pF GJM (series-resonant ~5.8 GHz). R605-R607 47R series: place at the ESP32 end.\n- R608/R609 100k hold CE/RFOUT_EN low at boot.\n- Loop filter C622/R616/C623/R617/C624 = MAX2871 DS Rev 4 TOC table \"6.0 GHz closed-loop\n  phase noise\" config: fREF 50 MHz, fPFD 25 MHz, ~40 kHz BW, CP[3:0]=1111 (5.12 mA w/ RSET 5k1),\n  integer N=240. Ours: N=232 @ fPFD 25 MHz. Confirm Kvco @ 5.8 GHz in ADIsimPLL. All loop-filter caps C0G/film.\n- Firmware: program all regs twice at power-up (>=20 ms gap, order 5..0), RFA_EN/RFB_EN = 0 until second\n  pass; set MTLD=1 (reg4 b10) and MUTEDEL=1 (reg3 b17) so outputs mute when unlocked. PDP=1.\n- VCC_VCO on dedicated branch +3V3_SYN_VCO (R618). Pull-up node HF caps C626/C627: 2.2 pF GJM.\n- R612 (50R term) or J602 (SMA monitor): populate one. J601/J602: Molex 73251-1153 edge-launch SMA.\n- Bead-free star: R601-R603 0R 0603 branch links (fallback filter footprints). R604 10R + C604 10u = TCXO RC, fc ~1.6 kHz.\n- +3V3_SYN from dedicated low-noise LDO (TBD); LC/pi filter at LDO input if fed from a switcher. REF_25M from TCXO (TBD).\n- GND pins 8,9,11,18,21,27,31: own via each, not to EP. EP: >=9-via array."
 		(exclude_from_sim no)
 		(at 96.52 222.25 0)
 		(effects
@@ -8336,7 +8391,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 			(at 50.8 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8358,7 +8413,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 50.8 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8369,7 +8424,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05A105KP5NNNC"
 			(at 50.8 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8380,7 +8435,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 			(at 50.8 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8848,7 +8903,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 			(at 50.8 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8870,7 +8925,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 50.8 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8881,7 +8936,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05A105KP5NNNC"
 			(at 50.8 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8892,7 +8947,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 			(at 50.8 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9349,7 +9404,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 			(at 50.8 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9371,7 +9426,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 50.8 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9382,7 +9437,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05A105KP5NNNC"
 			(at 50.8 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9393,7 +9448,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 			(at 50.8 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9850,7 +9905,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 			(at 50.8 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9872,7 +9927,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 50.8 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9883,7 +9938,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05A105KP5NNNC"
 			(at 50.8 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9894,7 +9949,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 			(at 50.8 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10777,7 +10832,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B103KB5NNN_Spec.pdf"
 			(at 71.12 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10788,7 +10843,7 @@
 				)
 			)
 		)
-		(property "Description" "10 nF ±10% X7R 0402"
+		(property "Description" "10 nF ±10% 50V X7R 0402"
 			(at 71.12 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10799,7 +10854,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 71.12 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10810,7 +10865,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05B103KB5NNNC"
 			(at 71.12 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10821,7 +10876,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686"
 			(at 71.12 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10988,7 +11043,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 40.64 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11010,7 +11065,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 40.64 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11021,7 +11076,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-0747RL"
 			(at 40.64 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11032,7 +11087,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0747RL/2827566"
 			(at 40.64 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11122,7 +11177,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 40.64 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11144,7 +11199,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 40.64 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11155,7 +11210,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-0747RL"
 			(at 40.64 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11166,7 +11221,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0747RL/2827566"
 			(at 40.64 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11256,7 +11311,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 40.64 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11278,7 +11333,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 40.64 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11289,7 +11344,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-0747RL"
 			(at 40.64 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11300,7 +11355,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0747RL/2827566"
 			(at 40.64 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11392,7 +11447,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 40.64 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -11414,7 +11469,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 40.64 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -11425,7 +11480,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-07100KL"
 			(at 40.64 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -11436,7 +11491,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526"
 			(at 40.64 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -11605,7 +11660,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 40.64 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -11627,7 +11682,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 40.64 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -11638,7 +11693,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-07100KL"
 			(at 40.64 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -11649,7 +11704,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526"
 			(at 40.64 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -11896,7 +11951,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
 			(at 33.02 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -11907,7 +11962,7 @@
 				)
 			)
 		)
-		(property "Description" "12 nF ±5% C0G 0603"
+		(property "Description" "12 nF ±5% 25V C0G 0603"
 			(at 33.02 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -11918,7 +11973,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 33.02 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -11929,7 +11984,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "C0603C123J3GACTU"
 			(at 33.02 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -11940,7 +11995,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/kemet/C0603C123J3GACTU/2199873"
 			(at 33.02 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12109,7 +12164,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 43.18 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12131,7 +12186,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 43.18 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12142,7 +12197,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-07120RL"
 			(at 43.18 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12153,7 +12208,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07120RL/726535"
 			(at 43.18 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12245,7 +12300,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/film-cap-electroequip/models/ECHU1H104GX9"
 			(at 43.18 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -12289,7 +12344,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/panasonic-industry/ECH-U1H104GX9/1630897"
 			(at 43.18 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -12456,7 +12511,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 55.88 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -12478,7 +12533,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 55.88 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -12489,7 +12544,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-07249RL"
 			(at 55.88 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -12500,7 +12555,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07249RL/2827604"
 			(at 55.88 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -12592,7 +12647,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 66.04 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12603,7 +12658,7 @@
 				)
 			)
 		)
-		(property "Description" "820 pF ±5% C0G 0402"
+		(property "Description" "820 pF ±5% 50V C0G 0402"
 			(at 66.04 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12614,7 +12669,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 66.04 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12625,7 +12680,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "GRM1555C1H821JA01D"
 			(at 66.04 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12636,7 +12691,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H821JA01D/702507"
 			(at 66.04 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12805,7 +12860,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 78.74 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12827,7 +12882,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 78.74 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12838,7 +12893,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-07100KL"
 			(at 78.74 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12849,7 +12904,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526"
 			(at 78.74 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -13312,7 +13367,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 			(at 182.88 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13334,7 +13389,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 182.88 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13345,7 +13400,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05A105KP5NNNC"
 			(at 182.88 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13356,7 +13411,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 			(at 182.88 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13602,7 +13657,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 			(at 198.12 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13624,7 +13679,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 198.12 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13635,7 +13690,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05A105KP5NNNC"
 			(at 198.12 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13646,7 +13701,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 			(at 198.12 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13892,7 +13947,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 			(at 213.36 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13914,7 +13969,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 213.36 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13925,7 +13980,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05A105KP5NNNC"
 			(at 213.36 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13936,7 +13991,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 			(at 213.36 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14139,7 +14194,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "cwradar:2p2")
 		(at 228.6 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -14160,7 +14215,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "2p2"
 			(at 231.14 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14182,7 +14237,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H2R2BB01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 228.6 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14193,7 +14248,62 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2 pF ±0.1 pF 50V C0G 0402, high-Q, series-resonant ~5.8 GHz"
+			(at 228.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 228.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "GJM1555C1H2R2BB01D"
+			(at 228.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919"
+			(at 228.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 228.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 228.6 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14340,7 +14450,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 			(at 238.76 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14362,7 +14472,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 238.76 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14373,7 +14483,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05A105KP5NNNC"
 			(at 238.76 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14384,7 +14494,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 			(at 238.76 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14630,7 +14740,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14652,7 +14762,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14663,7 +14773,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05A105KP5NNNC"
 			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14674,7 +14784,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14920,7 +15030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 			(at 271.78 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14942,7 +15052,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 271.78 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14953,7 +15063,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05A105KP5NNNC"
 			(at 271.78 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14964,7 +15074,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 			(at 271.78 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -15133,7 +15243,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 			(at 127 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15155,7 +15265,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 127 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15166,7 +15276,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05A105KP5NNNC"
 			(at 127 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15177,7 +15287,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 			(at 127 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15346,7 +15456,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 			(at 116.84 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15368,7 +15478,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 116.84 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15379,7 +15489,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05A105KP5NNNC"
 			(at 116.84 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15390,7 +15500,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 			(at 116.84 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15559,7 +15669,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf"
 			(at 106.68 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15581,7 +15691,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 106.68 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15592,7 +15702,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "CL05A105KP5NNNC"
 			(at 106.68 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15603,7 +15713,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734"
 			(at 106.68 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15772,7 +15882,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 96.52 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15794,7 +15904,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 96.52 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15805,7 +15915,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-075K1L"
 			(at 96.52 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15816,7 +15926,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-075K1L/726624"
 			(at 96.52 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15983,7 +16093,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 125.73 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -15994,7 +16104,7 @@
 				)
 			)
 		)
-		(property "Description" "1 nF ±5% C0G 0402"
+		(property "Description" "1 nF ±5% 50V C0G 0402"
 			(at 125.73 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -16005,7 +16115,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 125.73 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -16016,7 +16126,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "GRM1555C1H102JA01D"
 			(at 125.73 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -16027,7 +16137,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H102JA01D/702509"
 			(at 125.73 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -16514,7 +16624,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 215.9 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -16536,7 +16646,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 215.9 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -16547,7 +16657,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-0749R9L"
 			(at 215.9 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -16558,7 +16668,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0749R9L/726621"
 			(at 215.9 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -16684,7 +16794,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "cwradar:2p2")
 		(at 228.6 205.74 90)
 		(unit 1)
 		(body_style 1)
@@ -16695,7 +16805,7 @@
 		(dnp no)
 		(uuid "034dccdf-fec2-54de-a8dd-0a912d79075a")
 		(property "Reference" "C621"
-			(at 228.6 200.025 90)
+			(at 228.6 201.295 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16704,8 +16814,8 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
-			(at 228.6 201.93 90)
+		(property "Value" "2p2"
+			(at 228.6 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16725,7 +16835,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H2R2BB01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 228.6 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -16736,7 +16846,62 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2 pF ±0.1 pF 50V C0G 0402, high-Q, series-resonant ~5.8 GHz"
+			(at 228.6 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 228.6 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "GJM1555C1H2R2BB01D"
+			(at 228.6 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919"
+			(at 228.6 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 228.6 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 228.6 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -16806,7 +16971,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 215.9 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -16828,7 +16993,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 215.9 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -16839,7 +17004,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-0749R9L"
 			(at 215.9 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -16850,7 +17015,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0749R9L/726621"
 			(at 215.9 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -16976,7 +17141,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "cwradar:2p2")
 		(at 228.6 187.96 90)
 		(unit 1)
 		(body_style 1)
@@ -16987,7 +17152,7 @@
 		(dnp no)
 		(uuid "1381f0de-f298-59b0-8b7e-4b5f8dd25330")
 		(property "Reference" "C620"
-			(at 228.6 182.245 90)
+			(at 228.6 183.515 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16996,8 +17161,8 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
-			(at 228.6 184.15 90)
+		(property "Value" "2p2"
+			(at 228.6 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17017,7 +17182,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H2R2BB01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 228.6 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -17028,7 +17193,62 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2 pF ±0.1 pF 50V C0G 0402, high-Q, series-resonant ~5.8 GHz"
+			(at 228.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 228.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "GJM1555C1H2R2BB01D"
+			(at 228.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919"
+			(at 228.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 228.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 228.6 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -17098,7 +17318,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 215.9 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -17120,7 +17340,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 215.9 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -17131,7 +17351,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-0749R9L"
 			(at 215.9 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -17142,7 +17362,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0749R9L/726621"
 			(at 215.9 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -17268,7 +17488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "cwradar:2p2")
 		(at 228.6 170.18 90)
 		(unit 1)
 		(body_style 1)
@@ -17279,7 +17499,7 @@
 		(dnp no)
 		(uuid "4ebb9fd8-2466-5182-ae44-06fdc5e87b67")
 		(property "Reference" "C619"
-			(at 228.6 164.465 90)
+			(at 228.6 165.735 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17288,8 +17508,8 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
-			(at 228.6 166.37 90)
+		(property "Value" "2p2"
+			(at 228.6 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17309,7 +17529,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H2R2BB01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 228.6 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -17320,7 +17540,62 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2 pF ±0.1 pF 50V C0G 0402, high-Q, series-resonant ~5.8 GHz"
+			(at 228.6 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 228.6 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "GJM1555C1H2R2BB01D"
+			(at 228.6 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919"
+			(at 228.6 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 228.6 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 228.6 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -17390,7 +17665,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/732511153?display=pdf"
 			(at 248.92 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -17423,7 +17698,18 @@
 				)
 			)
 		)
-		(property "Mfg Part #" "73251-1153"
+		(property "Mfg Part #" "0732511153"
+			(at 248.92 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/molex/0732511153/11305709"
 			(at 248.92 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -17570,7 +17856,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 215.9 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17592,7 +17878,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 215.9 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17603,7 +17889,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-0749R9L"
 			(at 215.9 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17614,7 +17900,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0749R9L/726621"
 			(at 215.9 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17740,7 +18026,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "cwradar:2p2")
 		(at 228.6 152.4 90)
 		(unit 1)
 		(body_style 1)
@@ -17751,7 +18037,7 @@
 		(dnp no)
 		(uuid "76d9f725-b1fe-5e83-87dd-beedac27eb32")
 		(property "Reference" "C618"
-			(at 228.6 146.685 90)
+			(at 228.6 147.955 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17760,8 +18046,8 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
-			(at 228.6 148.59 90)
+		(property "Value" "2p2"
+			(at 228.6 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17781,7 +18067,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H2R2BB01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 228.6 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -17792,7 +18078,62 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2 pF ±0.1 pF 50V C0G 0402, high-Q, series-resonant ~5.8 GHz"
+			(at 228.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 228.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "GJM1555C1H2R2BB01D"
+			(at 228.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919"
+			(at 228.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 228.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 228.6 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -17862,7 +18203,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 238.76 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -17884,7 +18225,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 238.76 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -17895,7 +18236,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402FR-0749R9L"
 			(at 238.76 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -17906,7 +18247,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0749R9L/726621"
 			(at 238.76 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -18075,7 +18416,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/732511153?display=pdf"
 			(at 248.92 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -18108,7 +18449,18 @@
 				)
 			)
 		)
-		(property "Mfg Part #" "73251-1153"
+		(property "Mfg Part #" "0732511153"
+			(at 248.92 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/molex/0732511153/11305709"
 			(at 248.92 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -18289,7 +18641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "cwradar:2p2")
 		(at 284.48 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -18310,7 +18662,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "2p2"
 			(at 287.02 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18332,7 +18684,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H2R2BB01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 284.48 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18343,7 +18695,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2 pF ±0.1 pF 50V C0G 0402, high-Q, series-resonant ~5.8 GHz"
 			(at 284.48 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18354,7 +18706,62 @@
 				)
 			)
 		)
-		(property "Note" "Place at the shared supply end of R611/R613. C0G 0402, series-resonant at 5.8 GHz (~1-3 pF)."
+		(property "Manufacturer" "Murata"
+			(at 284.48 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "GJM1555C1H2R2BB01D"
+			(at 284.48 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919"
+			(at 284.48 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 284.48 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 284.48 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "Place at the shared supply end of R611/R613. Series-resonant around 5.8 GHz."
 			(at 284.48 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18535,7 +18942,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "cwradar:2p2")
 		(at 284.48 196.85 0)
 		(unit 1)
 		(body_style 1)
@@ -18556,7 +18963,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "2p2"
 			(at 287.02 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18578,7 +18985,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H2R2BB01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 284.48 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -18589,7 +18996,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2 pF ±0.1 pF 50V C0G 0402, high-Q, series-resonant ~5.8 GHz"
 			(at 284.48 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -18600,7 +19007,62 @@
 				)
 			)
 		)
-		(property "Note" "Place at the shared supply end of R614/R615. C0G 0402, series-resonant at 5.8 GHz (~1-3 pF)."
+		(property "Manufacturer" "Murata"
+			(at 284.48 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "GJM1555C1H2R2BB01D"
+			(at 284.48 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919"
+			(at 284.48 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 284.48 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 284.48 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "Place at the shared supply end of R614/R615. Series-resonant around 5.8 GHz."
 			(at 284.48 196.85 0)
 			(hide yes)
 			(show_name no)

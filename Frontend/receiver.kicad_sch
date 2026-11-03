@@ -321,161 +321,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -616,145 +461,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "cwradar:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "cwradar:+5V_DEMOD"
 			(power global)
 			(pin_numbers
@@ -873,6 +579,145 @@
 				)
 			)
 			(symbol "+5V_DEMOD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cwradar:+5V_RF"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V_RF"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V_RF\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_RF_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_RF_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1132,7 +977,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1154,7 +999,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "YAGEO"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1165,7 +1010,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" ""
+			(property "Mfg Part #" "RC0402JR-070RL"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1176,7 +1021,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1539,7 +1384,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1561,7 +1406,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "Murata"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1572,7 +1417,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" ""
+			(property "Mfg Part #" "GRM1555C1H101JA01D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1583,7 +1428,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H101JA01D/3693829"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1914,6 +1759,216 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "cwradar:2p2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2p2"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H2R2BB01-01A-EN_PDF_CERAMICCAPACITORSMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.2 pF ±0.1 pF 50V C0G 0402, high-Q, series-resonant ~5.8 GHz"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfg Part #" "GJM1555C1H2R2BB01D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor Link 2" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2p2_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2p2_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "cwradar:5400BL15B050"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1973,7 +2028,7 @@
 					)
 				)
 			)
-			(property "Mfg Part #" "5400BL15B050E"
+			(property "Mfg Part #" "5400BL15B0050001E"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1984,7 +2039,7 @@
 					)
 				)
 			)
-			(property "Distributor Link 1" ""
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/johanson-technology-inc/5400BL15B0050001E/1560729"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4017,7 +4072,7 @@
 		)
 		(uuid "5e9c8b3f-e721-54c9-b076-735c6e9dc073")
 	)
-	(text "+5V source TBD (Regulators)"
+	(text "+5V_RF from LDO303 (Regulators)"
 		(exclude_from_sim no)
 		(at 40.64 30.48 0)
 		(effects
@@ -4058,7 +4113,7 @@
 		)
 		(uuid "b6e2886f-74d8-58a9-b640-689eb9dd1609")
 	)
-	(text "ADL5380 NOTES (DS Rev B)\n- VS 4.75–5.25 V on +5V_DEMOD; per-pin 100 pF C0G + 0.1 µF; budget ~250 mA (measure).\n- ENBL low = enabled (0R to GND). ADJ open for >5 GHz (DNP footprint to VS for IIP3 tuning).\n- RF: single-ended RX -> Johanson 5400BL15B050 balun -> series-resonant C0G DC blocks -> RFIP/RFIN.\n  Keep balun-to-pin traces < ~1.4 mm and symmetric.\n- LO: LO_P/LO_N already AC-coupled on MAX2871 sheet (C620/C621). No second DC block.\n- BB out: 50 Ω diff, CM ≈ VS-1.2 V with ADJ open. DNP diff load per pair. I/Q mapping: IHI(3)->I_P, ILO(4)->I_N,\n  QHI(16)->Q_P, QLO(15)->Q_N. RF: T701 pin 3 -> RX_BAL_P -> RFIP(22), pin 4 -> RX_BAL_N -> RFIN(21).\n  LO: LO_P -> LOIN(10), LO_N -> LOIP(9) (RF and LO polarity picked for crossing-free routing).\n  Swapping the I or the Q pair (not both) flips the Doppler sign;\n  swapping the RF or LO pair inverts I and Q together and does not.\n- EP: thermal vias + windowpane paste (layout).\n- +5V is a placeholder rail; its source (Regulators sheet) is TBD. Pin 12 NC: do not connect."
+	(text "ADL5380 NOTES (DS Rev B)\n- VS 4.75–5.25 V on +5V_DEMOD; per-pin 100 pF C0G + 0.1 µF; budget ~250 mA (measure).\n- ENBL low = enabled (0R to GND). ADJ open for >5 GHz (DNP footprint to VS for IIP3 tuning).\n- RF: single-ended RX -> Johanson 5400BL15B050 balun -> series-resonant C0G DC blocks -> RFIP/RFIN.\n  Keep balun-to-pin traces < ~1.4 mm and symmetric.\n- LO: LO_P/LO_N already AC-coupled on MAX2871 sheet (C620/C621). No second DC block.\n- BB out: 50 Ω diff, CM ≈ VS-1.2 V with ADJ open. DNP diff load per pair. I/Q mapping: IHI(3)->I_P, ILO(4)->I_N,\n  QHI(16)->Q_P, QLO(15)->Q_N. RF: T701 pin 3 -> RX_BAL_P -> RFIP(22), pin 4 -> RX_BAL_N -> RFIN(21).\n  LO: LO_P -> LOIN(10), LO_N -> LOIP(9) (RF and LO polarity picked for crossing-free routing).\n  Swapping the I or the Q pair (not both) flips the Doppler sign;\n  swapping the RF or LO pair inverts I and Q together and does not.\n- EP: thermal vias + windowpane paste (layout).\n- +5V_RF comes from LDO303 (TPS7A8300, 5.0 V) on the Regulators sheet. Pin 12 NC: do not connect."
 		(exclude_from_sim no)
 		(at 96.52 184.15 0)
 		(effects
@@ -4206,7 +4261,7 @@
 		(uuid "4ab60a5b-e238-5714-a056-ce993982576d")
 	)
 	(symbol
-		(lib_id "cwradar:+5V")
+		(lib_id "cwradar:+5V_RF")
 		(at 33.02 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -4227,7 +4282,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V_RF"
 			(at 33.02 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4259,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+5V_RF\""
 			(at 33.02 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5049,7 +5104,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/732511153?display=pdf"
 			(at 101.6 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5082,7 +5137,18 @@
 				)
 			)
 		)
-		(property "Mfg Part #" "73251-1153"
+		(property "Mfg Part #" "0732511153"
+			(at 101.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/molex/0732511153/11305709"
 			(at 101.6 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5250,7 +5316,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" "5400BL15B050E"
+		(property "Mfg Part #" "5400BL15B0050001E"
 			(at 129.54 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5261,7 +5327,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/johanson-technology-inc/5400BL15B0050001E/1560729"
 			(at 129.54 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5410,7 +5476,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "cwradar:2p2")
 		(at 157.48 134.62 90)
 		(unit 1)
 		(body_style 1)
@@ -5421,7 +5487,7 @@
 		(dnp no)
 		(uuid "408abc36-3461-5921-ab46-7a21898abd39")
 		(property "Reference" "C702"
-			(at 157.48 128.905 90)
+			(at 157.48 130.175 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5430,8 +5496,8 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
-			(at 157.48 130.81 90)
+		(property "Value" "2p2"
+			(at 157.48 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5451,7 +5517,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H2R2BB01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 157.48 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5462,7 +5528,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2 pF ±0.1 pF 50V C0G 0402, high-Q, series-resonant ~5.8 GHz"
 			(at 157.48 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5473,7 +5539,62 @@
 				)
 			)
 		)
-		(property "Note" "DC block: C0G 0402, series-resonant at 5.8 GHz. Not the eval board's 100 pF (rated to 4 GHz)."
+		(property "Manufacturer" "Murata"
+			(at 157.48 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "GJM1555C1H2R2BB01D"
+			(at 157.48 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919"
+			(at 157.48 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 157.48 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 157.48 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "DC block, series-resonant ~5.8 GHz. Not the eval board's 100 pF (rated to 4 GHz)."
 			(at 157.48 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5500,7 +5621,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "cwradar:2p2")
 		(at 157.48 124.46 90)
 		(unit 1)
 		(body_style 1)
@@ -5511,7 +5632,7 @@
 		(dnp no)
 		(uuid "34c7a7e6-cf88-5896-a598-89c165fd6262")
 		(property "Reference" "C703"
-			(at 157.48 118.745 90)
+			(at 157.48 120.015 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5520,8 +5641,8 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
-			(at 157.48 120.65 90)
+		(property "Value" "2p2"
+			(at 157.48 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5541,7 +5662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H2R2BB01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 157.48 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5552,7 +5673,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2 pF ±0.1 pF 50V C0G 0402, high-Q, series-resonant ~5.8 GHz"
 			(at 157.48 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5563,7 +5684,62 @@
 				)
 			)
 		)
-		(property "Note" "DC block: C0G 0402, series-resonant at 5.8 GHz. Not the eval board's 100 pF (rated to 4 GHz)."
+		(property "Manufacturer" "Murata"
+			(at 157.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "GJM1555C1H2R2BB01D"
+			(at 157.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919"
+			(at 157.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 157.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 157.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "DC block, series-resonant ~5.8 GHz. Not the eval board's 100 pF (rated to 4 GHz)."
 			(at 157.48 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5789,7 +5965,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 152.4 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -5811,7 +5987,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 152.4 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -5822,7 +5998,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "RC0402JR-070RL"
 			(at 152.4 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -5833,7 +6009,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
 			(at 152.4 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6079,7 +6255,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 218.44 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6101,7 +6277,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 218.44 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6112,7 +6288,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "GRM1555C1H101JA01D"
 			(at 218.44 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6123,7 +6299,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H101JA01D/3693829"
 			(at 218.44 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6582,7 +6758,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 243.84 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6604,7 +6780,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 243.84 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6615,7 +6791,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "GRM1555C1H101JA01D"
 			(at 243.84 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6626,7 +6802,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H101JA01D/3693829"
 			(at 243.84 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7085,7 +7261,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 269.24 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7107,7 +7283,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 269.24 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7118,7 +7294,7 @@
 				)
 			)
 		)
-		(property "Mfg Part #" ""
+		(property "Mfg Part #" "GRM1555C1H101JA01D"
 			(at 269.24 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7129,7 +7305,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H101JA01D/3693829"
 			(at 269.24 107.95 0)
 			(hide yes)
 			(show_name no)

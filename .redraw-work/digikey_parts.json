@@ -1,0 +1,590 @@
+{
+ "0466003.NR": {
+  "manufacturer_dk": "Littelfuse Inc.",
+  "digikey": "https://www.digikey.com/en/products/detail/littelfuse-inc/0466003-NR/521339",
+  "datasheet": "https://www.littelfuse.com/assetdocs/fuse-466-datasheet?assetguid=dbe9bcd7-6072-4adf-bf5b-d33e52a6b90f",
+  "digikey_pn": "F1458CT-ND",
+  "stock_2026_10_22": 27345
+ },
+ "12063D226KAT2A": {
+  "manufacturer_dk": "KYOCERA AVX",
+  "digikey": "https://www.digikey.com/en/products/detail/kyocera-avx/12063D226KAT2A/6148999",
+  "datasheet": "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf",
+  "digikey_pn": "478-KGM31HR51E226KUCT-ND",
+  "stock_2026_10_22": 126690
+ },
+ "2N7002K": {
+  "manufacturer_dk": "onsemi",
+  "digikey": "https://www.digikey.com/en/products/detail/onsemi/2N7002K/2060348",
+  "datasheet": "https://www.onsemi.com/pub/Collateral/2N7002K-FSC-D.PDF",
+  "digikey_pn": "2N7002KCT-ND",
+  "stock_2026_10_22": 344804
+ },
+ "61201021621": {
+  "manufacturer_dk": "Würth Elektronik",
+  "digikey": "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61201021621/2060590",
+  "datasheet": "https://www.we-online.com/components/products/datasheet/61201021621.pdf",
+  "digikey_pn": "732-2094-ND",
+  "stock_2026_10_22": 31972
+ },
+ "74438357010": {
+  "manufacturer_dk": "Würth Elektronik",
+  "digikey": "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/74438357010/6833535",
+  "datasheet": "https://www.we-online.com/components/products/datasheet/74438357010.pdf",
+  "digikey_pn": "732-11197-1-ND",
+  "stock_2026_10_22": 26759
+ },
+ "74438357068": {
+  "manufacturer_dk": "Würth Elektronik",
+  "digikey": "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/74438357068/6833542",
+  "datasheet": "https://www.we-online.com/components/products/datasheet/74438357068.pdf",
+  "digikey_pn": "732-11204-1-ND",
+  "stock_2026_10_22": 13139
+ },
+ "AO3401A": {
+  "manufacturer_dk": "Alpha & Omega Semiconductor Inc.",
+  "digikey": "https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3401A/1855773",
+  "datasheet": "https://aosmd.com/sites/default/files/res/datasheets/AO3401A.pdf",
+  "digikey_pn": "785-1001-1-ND",
+  "stock_2026_10_22": 327439
+ },
+ "B2B-PH-K-S": {
+  "manufacturer_dk": "JST Sales America Inc.",
+  "digikey": "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-PH-K-S/926611",
+  "datasheet": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf",
+  "digikey_pn": "455-1704-ND",
+  "stock_2026_10_22": 195712
+ },
+ "B2B-XH-A": {
+  "manufacturer_dk": "JST Sales America Inc.",
+  "digikey": "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A/1651045",
+  "datasheet": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+  "digikey_pn": "455-B2B-XH-A-ND",
+  "stock_2026_10_22": 235750
+ },
+ "BQ25883RGET": {
+  "manufacturer_dk": "Texas Instruments",
+  "digikey": "https://www.digikey.com/en/products/detail/texas-instruments/BQ25883RGET/10434658",
+  "datasheet": "https://www.ti.com/lit/ds/symlink/bq25883.pdf",
+  "digikey_pn": "296-BQ25883RGETCT-ND",
+  "stock_2026_10_22": 158
+ },
+ "C0603C105K3RACTU": {
+  "manufacturer_dk": "KEMET",
+  "digikey": "https://www.digikey.com/en/products/detail/kemet/C0603C105K3RACTU/3317582",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD",
+  "digikey_pn": "399-C0603C105K3RACTUCT-ND",
+  "stock_2026_10_22": 926646
+ },
+ "C0603C682F5GACTU": {
+  "manufacturer_dk": "KEMET",
+  "digikey": "https://www.digikey.com/en/products/detail/kemet/C0603C682F5GACTU/2201109",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD",
+  "digikey_pn": "399-C0603C682F5GACTUCT-ND",
+  "stock_2026_10_22": 48394
+ },
+ "CB052E0105JBC": {
+  "manufacturer_dk": "KYOCERA AVX",
+  "digikey": "https://www.digikey.com/en/products/detail/kyocera-avx/CB052E0105JBC/1645818",
+  "datasheet": "https://datasheets.kyocera-avx.com/cb-petht.pdf",
+  "digikey_pn": "478-4539-1-ND",
+  "stock_2026_10_22": 20370
+ },
+ "CL05B223KB5NNNC": {
+  "manufacturer_dk": "Samsung Electro-Mechanics",
+  "digikey": "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B223KB5NNNC/10478981",
+  "datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/339/CL05B223KB5NNNC_Spec.pdf",
+  "digikey_pn": "1276-CL05B223KB5NNNCCT-ND",
+  "stock_2026_10_22": 2156
+ },
+ "CRCW04024K70FKED": {
+  "manufacturer_dk": "Vishay Dale",
+  "digikey": "https://www.digikey.com/en/products/detail/vishay-dale/CRCW04024K70FKED/1178083",
+  "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+  "digikey_pn": "541-4.70KLCT-ND",
+  "stock_2026_10_22": 2730405
+ },
+ "ERA-2AEB103X": {
+  "manufacturer_dk": "Panasonic Industry",
+  "digikey": "https://www.digikey.com/en/products/detail/panasonic-industry/ERA-2AEB103X/1706029",
+  "datasheet": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf",
+  "digikey_pn": "P10KDCCT-ND",
+  "stock_2026_10_22": 524162
+ },
+ "ERA-2AEB153X": {
+  "manufacturer_dk": "Panasonic Industry",
+  "digikey": "https://www.digikey.com/en/products/detail/panasonic-industry/ERA-2AEB153X/1706033",
+  "datasheet": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf",
+  "digikey_pn": "P15KDCCT-ND",
+  "stock_2026_10_22": 421919
+ },
+ "ERA-2AEB203X": {
+  "manufacturer_dk": "Panasonic Industry",
+  "digikey": "https://www.digikey.com/en/products/detail/panasonic-industry/ERA-2AEB203X/1706036",
+  "datasheet": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf",
+  "digikey_pn": "P20KDCCT-ND",
+  "stock_2026_10_22": 9439
+ },
+ "ERA-2AEB3321X": {
+  "manufacturer_dk": "Panasonic Industry",
+  "digikey": "https://www.digikey.com/en/products/detail/panasonic-industry/ERA-2AEB3321X/2026099",
+  "datasheet": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf",
+  "digikey_pn": "P3.32KDCCT-ND",
+  "stock_2026_10_22": 83823
+ },
+ "ERA-2AEB5491X": {
+  "manufacturer_dk": "Panasonic Industry",
+  "digikey": "https://www.digikey.com/en/products/detail/panasonic-industry/ERA-2AEB5491X/2026120",
+  "datasheet": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf",
+  "digikey_pn": "P5.49KDCCT-ND",
+  "stock_2026_10_22": 7224
+ },
+ "ERJ-2RKF1501X": {
+  "manufacturer_dk": "Panasonic Industry",
+  "digikey": "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-2RKF1501X/192060",
+  "datasheet": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf",
+  "digikey_pn": "P1.50KLCT-ND",
+  "stock_2026_10_22": 1076772
+ },
+ "ERJ-2RKF2263X": {
+  "manufacturer_dk": "Panasonic Industry",
+  "digikey": "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-2RKF2263X/192233",
+  "datasheet": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf",
+  "digikey_pn": "P226KLCT-ND",
+  "stock_2026_10_22": 218844
+ },
+ "ESP32-S3-WROOM-1-N16R2": {
+  "manufacturer_dk": "Espressif Systems",
+  "digikey": "https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N16R2/16162644",
+  "datasheet": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+  "digikey_pn": "5407-ESP32-S3-WROOM-1-N16R2CT-ND",
+  "stock_2026_10_22": 4839
+ },
+ "GCM1885C1H332FA16D": {
+  "manufacturer_dk": "Murata Electronics",
+  "digikey": "https://www.digikey.com/en/products/detail/murata-electronics/GCM1885C1H332FA16D/10231654",
+  "datasheet": "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1885C1H332FA16-01A-EN_PDF_CERAMICCAPACITORSMD",
+  "digikey_pn": "490-GCM1885C1H332FA16DCT-ND",
+  "stock_2026_10_22": 188255
+ },
+ "GCM1885C1H472GA16D": {
+  "manufacturer_dk": "Murata Electronics",
+  "digikey": "https://www.digikey.com/en/products/detail/murata-electronics/GCM1885C1H472GA16D/16033869",
+  "datasheet": "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1885C1H472GA16-01A-EN_PDF_CERAMICCAPACITORSMD",
+  "digikey_pn": "490-GCM1885C1H472GA16DCT-ND",
+  "stock_2026_10_22": 11207
+ },
+ "GRM1555C1H471GA01D": {
+  "manufacturer_dk": "Murata Electronics",
+  "digikey": "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H471GA01D/2544059",
+  "datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf",
+  "digikey_pn": "490-8208-1-ND",
+  "stock_2026_10_22": 75123
+ },
+ "GRM155R71H473KE14D": {
+  "manufacturer_dk": "Murata Electronics",
+  "digikey": "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71H473KE14D/4905190",
+  "datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf",
+  "digikey_pn": "490-10702-1-ND",
+  "stock_2026_10_22": 631464
+ },
+ "GRM188R61E475KE11D": {
+  "manufacturer_dk": "Murata Electronics",
+  "digikey": "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E475KE11D/3900465",
+  "datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/Chip_Multilayer_CAT2021_MLCC.pdf",
+  "digikey_pn": "490-7203-1-ND",
+  "stock_2026_10_22": 662405
+ },
+ "GRM3195C2A104GA01D": {
+  "manufacturer_dk": "Murata Electronics",
+  "digikey": "https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C2A104GA01D/16033450",
+  "datasheet": "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM3195C2A104GA01-01A-EN_PDF_CERAMICCAPACITORSMD",
+  "digikey_pn": "490-GRM3195C2A104GA01DCT-ND",
+  "stock_2026_10_22": 75542
+ },
+ "GRM31CR61A476ME15L": {
+  "manufacturer_dk": "Murata Electronics",
+  "digikey": "https://www.digikey.com/en/products/detail/murata-electronics/GRM31CR61A476ME15L/2334879",
+  "datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf",
+  "digikey_pn": "490-5528-1-ND",
+  "stock_2026_10_22": 217400
+ },
+ "INA819IDR": {
+  "manufacturer_dk": "Texas Instruments",
+  "digikey": "https://www.digikey.com/en/products/detail/texas-instruments/INA819IDR/10448284",
+  "datasheet": "https://www.ti.com/lit/ds/symlink/ina819.pdf",
+  "digikey_pn": "296-INA819IDRCT-ND",
+  "stock_2026_10_22": 3255
+ },
+ "NTCG163JF103FT1S": {
+  "manufacturer_dk": "TDK",
+  "digikey": "https://www.digikey.com/en/products/detail/tdk/NTCG163JF103FT1S/2658337",
+  "datasheet": "https://product.tdk.com/system/files/dam/doc/product/sensor/ntc/chip-ntc-thermistor/catalog/tpd_commercial_ntc-thermistor_ntcg_en.pdf",
+  "digikey_pn": "445-6881-1-ND",
+  "stock_2026_10_22": 3588
+ },
+ "OPA4388IPWR": {
+  "manufacturer_dk": "Texas Instruments",
+  "digikey": "https://www.digikey.com/en/products/detail/texas-instruments/OPA4388IPWR/10434812",
+  "datasheet": "https://www.ti.com/lit/ds/symlink/opa4388.pdf",
+  "digikey_pn": "296-OPA4388IPWRCT-ND",
+  "stock_2026_10_22": 3049
+ },
+ "OS102011MS2QN1": {
+  "manufacturer_dk": "C&K",
+  "digikey": "https://www.digikey.com/en/products/detail/c-k/OS102011MS2QN1/411602",
+  "datasheet": "https://www.littelfuse.com/assetdocs/littelfuse-c-k-slide-os-series-datasheet?assetguid=f8954ac2-65ba-431f-af55-b0493370575e",
+  "digikey_pn": "2266-OS102011MS2QN1-ND",
+  "stock_2026_10_22": 40803
+ },
+ "PCM1808PWR": {
+  "manufacturer_dk": "Texas Instruments",
+  "digikey": "https://www.digikey.com/en/products/detail/texas-instruments/PCM1808PWR/1573355",
+  "datasheet": "https://www.ti.com/lit/ds/symlink/pcm1808.pdf",
+  "digikey_pn": "296-26307-1-ND",
+  "stock_2026_10_22": 1972
+ },
+ "RC0402FR-0710KL": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0710KL/726523",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "311-10.0KLRCT-ND",
+  "stock_2026_10_22": 9405593
+ },
+ "RC0402FR-07113KL": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07113KL/2345131",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "YAG2368CT-ND",
+  "stock_2026_10_22": 81887
+ },
+ "RC0402FR-0711K3L": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0711K3L/726529",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "311-11.3KLRCT-ND",
+  "stock_2026_10_22": 2164
+ },
+ "RC0402FR-071KL": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-071KL/726513",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "311-1.00KLRCT-ND",
+  "stock_2026_10_22": 3745985
+ },
+ "RC0402FR-0720K5L": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0720K5L/5280912",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "YAG3052CT-ND",
+  "stock_2026_10_22": 150811
+ },
+ "RC0402FR-0730K1L": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0730K1L/726587",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "311-30.1KLRCT-ND",
+  "stock_2026_10_22": 7738
+ },
+ "RC0402FR-0730K9L": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0730K9L/5280970",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "YAG3110CT-ND",
+  "stock_2026_10_22": 270320
+ },
+ "RC0402FR-0731K6L": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0731K6L/5280975",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "YAG3115CT-ND",
+  "stock_2026_10_22": 1250104
+ },
+ "RC0402FR-0733RL": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0733RL/726593",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "311-33.0LRCT-ND",
+  "stock_2026_10_22": 1514604
+ },
+ "RC0402FR-07392RL": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07392RL/5281005",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "YAG3145CT-ND",
+  "stock_2026_10_22": 77203
+ },
+ "RC0402FR-0751K1L": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0751K1L/726630",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "311-51.1KLRCT-ND",
+  "stock_2026_10_22": 1218653
+ },
+ "RC0402FR-075K23L": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-075K23L/5281055",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "YAG3195CT-ND",
+  "stock_2026_10_22": 37057
+ },
+ "RC0402FR-0760K4L": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0760K4L/726643",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "311-60.4KLRCT-ND",
+  "stock_2026_10_22": 181218
+ },
+ "RC0402FR-07680RL": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07680RL/726654",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "311-680LRCT-ND",
+  "stock_2026_10_22": 473765
+ },
+ "RG1005P-112-B-T5": {
+  "manufacturer_dk": "Susumu",
+  "digikey": "https://www.digikey.com/en/products/detail/susumu/RG1005P-112-B-T5/968753",
+  "datasheet": "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf",
+  "digikey_pn": "RG10P1.1KBCT-ND",
+  "stock_2026_10_22": 4578
+ },
+ "RT0402BRD07105KL": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RT0402BRD07105KL/5926095",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L",
+  "digikey_pn": "13-RT0402BRD07105KLCT-ND",
+  "stock_2026_10_22": 4142
+ },
+ "SMF6.5A-TP": {
+  "manufacturer_dk": "MCC (Micro Commercial Components)",
+  "digikey": "https://www.digikey.com/en/products/detail/mcc-micro-commercial-components/SMF6-5A-TP/5114165",
+  "datasheet": "https://www.mccsemi.com/pdf/Products/SMF5.0A_SMF200CA%28SOD-123FL%29.pdf",
+  "digikey_pn": "SMF6.5A-TPMSCT-ND",
+  "stock_2026_10_22": 66741
+ },
+ "SRP7028A-100M": {
+  "manufacturer_dk": "Bourns Inc.",
+  "digikey": "https://www.digikey.com/en/products/detail/bourns-inc/SRP7028A-100M/4876641",
+  "datasheet": "https://www.bourns.com/docs/Product-Datasheets/SRP7028A.pdf",
+  "digikey_pn": "SRP7028A-100MCT-ND",
+  "stock_2026_10_22": 17871
+ },
+ "T520B476M010ATE070": {
+  "manufacturer_dk": "KEMET",
+  "digikey": "https://www.digikey.com/en/products/detail/kemet/T520B476M010ATE070/1129669",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/KEM_T2076_T52X-530",
+  "digikey_pn": "399-4982-1-ND",
+  "stock_2026_10_22": 50112
+ },
+ "TL3342F160QG/TR": {
+  "manufacturer_dk": "E-Switch",
+  "digikey": "https://www.digikey.com/en/products/detail/e-switch/TL3342F160QG-TR/379003",
+  "datasheet": "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/165/TL3342.pdf",
+  "digikey_pn": "EG2531CT-ND",
+  "stock_2026_10_22": 73065
+ },
+ "TMK212BBJ106KD-T": {
+  "manufacturer_dk": "Taiyo Yuden",
+  "digikey": "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212BBJ106KD-T/7403952",
+  "datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2230/TMK212BBJ106KD-T_SS.pdf",
+  "digikey_pn": "587-6024-1-ND",
+  "stock_2026_10_22": 26105
+ },
+ "TPS62933FDRLR": {
+  "manufacturer_dk": "Texas Instruments",
+  "digikey": "https://www.digikey.com/en/products/detail/texas-instruments/TPS62933FDRLR/16669312",
+  "datasheet": "https://www.ti.com/lit/ds/symlink/tps62933f.pdf",
+  "digikey_pn": "296-TPS62933FDRLRCT-ND",
+  "stock_2026_10_22": 2956
+ },
+ "TPS7A8300RGRR": {
+  "manufacturer_dk": "Texas Instruments",
+  "digikey": "https://www.digikey.com/en/products/detail/texas-instruments/TPS7A8300RGRR/4895612",
+  "datasheet": "https://www.ti.com/lit/ds/symlink/tps7a8300.pdf",
+  "digikey_pn": "296-40981-1-ND",
+  "stock_2026_10_22": 2883
+ },
+ "USB4105-GF-A": {
+  "manufacturer_dk": "GCT",
+  "digikey": "https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441",
+  "datasheet": "https://gct.co/files/specs/usb4105-spec.pdf",
+  "digikey_pn": "2073-USB4105-GF-ACT-ND",
+  "stock_2026_10_22": 91048
+ },
+ "USBLC6-2SC6": {
+  "manufacturer_dk": "STMicroelectronics",
+  "digikey": "https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/1040559",
+  "datasheet": "https://www.st.com/resource/en/datasheet/cd00050750.pdf",
+  "digikey_pn": "497-5235-1-ND",
+  "stock_2026_10_22": 84448
+ },
+ "LTST-C191KGKT": {
+  "manufacturer_dk": "Lite-On Inc.",
+  "digikey": "https://www.digikey.com/en/products/detail/liteon/LTST-C191KGKT/386835",
+  "datasheet": "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF",
+  "digikey_pn": "160-1446-1-ND",
+  "stock_2026_10_22": 2628542
+ },
+ "LTST-C191KSKT": {
+  "manufacturer_dk": "Lite-On Inc.",
+  "digikey": "https://www.digikey.com/en/products/detail/liteon/LTST-C191KSKT/386839",
+  "datasheet": "https://optoelectronics.liteon.com/upload/download/DS22-2000-224/LTST-C191KSKT.PDF",
+  "digikey_pn": "160-1448-1-ND",
+  "stock_2026_10_22": 851757
+ },
+ "LTST-C191KRKT": {
+  "manufacturer_dk": "Lite-On Inc.",
+  "digikey": "https://www.digikey.com/en/products/detail/liteon/LTST-C191KRKT/386837",
+  "datasheet": "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF",
+  "digikey_pn": "160-1447-1-ND",
+  "stock_2026_10_22": 1420000
+ },
+ "LTST-C191KFKT": {
+  "manufacturer_dk": "Lite-On Inc.",
+  "digikey": "https://www.digikey.com/en/products/detail/liteon/LTST-C191KFKT/386833",
+  "datasheet": "https://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf",
+  "digikey_pn": "160-1445-1-ND",
+  "stock_2026_10_22": 197666
+ },
+ "RC0402FR-07100KL": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "311-100KLRCT-ND",
+  "stock_2026_10_22": 5807728
+ },
+ "RC0402FR-075K1L": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-075K1L/726624",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "311-5.10KLRCT-ND",
+  "stock_2026_10_22": 658057
+ },
+ "RC0402FR-0747RL": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0747RL/2827566",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "311-47.0LRCT-ND",
+  "stock_2026_10_22": 58274
+ },
+ "RC0402JR-070RL": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "311-0.0JRCT-ND",
+  "stock_2026_10_22": 380723
+ },
+ "CL05A105KP5NNNC": {
+  "manufacturer_dk": "Samsung Electro-Mechanics",
+  "digikey": "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734",
+  "datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2384/CL05A105KP5NNN_Specsheet%20%281%29.pdf",
+  "digikey_pn": "1276-1076-1-ND",
+  "stock_2026_10_22": 692080
+ },
+ "CL05B103KB5NNNC": {
+  "manufacturer_dk": "Samsung Electro-Mechanics",
+  "digikey": "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686",
+  "datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B103KB5NNN_Spec.pdf",
+  "digikey_pn": "1276-1028-1-ND",
+  "stock_2026_10_22": 3925792
+ },
+ "CL05B104KB54PNC": {
+  "manufacturer_dk": "Samsung Electro-Mechanics",
+  "digikey": "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KB54PNC/11487801",
+  "datasheet": "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KB54PN",
+  "digikey_pn": "1276-CL05B104KB54PNCCT-ND",
+  "stock_2026_10_22": 745961
+ },
+ "RC0402FR-07120RL": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07120RL/726535",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "",
+  "stock_2026_10_27": 571856
+ },
+ "RC0402FR-07249RL": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07249RL/2827604",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "",
+  "stock_2026_10_27": 98516
+ },
+ "RC0402FR-0749R9L": {
+  "manufacturer_dk": "YAGEO",
+  "digikey": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0749R9L/726621",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+  "digikey_pn": "",
+  "stock_2026_10_27": 1940340
+ },
+ "GRM1555C1H102JA01D": {
+  "manufacturer_dk": "Murata Electronics",
+  "digikey": "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H102JA01D/702509",
+  "datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf",
+  "digikey_pn": "",
+  "stock_2026_10_27": 6081664
+ },
+ "GRM1555C1H821JA01D": {
+  "manufacturer_dk": "Murata Electronics",
+  "digikey": "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H821JA01D/702507",
+  "datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf",
+  "digikey_pn": "",
+  "stock_2026_10_27": 145506
+ },
+ "C0603C123J3GACTU": {
+  "manufacturer_dk": "KEMET",
+  "digikey": "https://www.digikey.com/en/products/detail/kemet/C0603C123J3GACTU/2199873",
+  "datasheet": "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD",
+  "digikey_pn": "",
+  "stock_2026_10_27": 119728
+ },
+ "GRM1555C1H101JA01D": {
+  "manufacturer_dk": "Murata Electronics",
+  "digikey": "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H101JA01D/3693829",
+  "datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf",
+  "digikey_pn": "",
+  "stock_2026_10_27": 97540
+ },
+ "ECH-U1H104GX9": {
+  "manufacturer_dk": "Panasonic Industry",
+  "digikey": "https://www.digikey.com/en/products/detail/panasonic-industry/ECH-U1H104GX9/1630897",
+  "datasheet": "https://industrial.panasonic.com/ww/products/pt/film-cap-electroequip/models/ECHU1H104GX9",
+  "digikey_pn": "",
+  "stock_2026_10_27": 27746
+ },
+ "5400BL15B0050001E": {
+  "manufacturer_dk": "Johanson Technology Inc.",
+  "digikey": "https://www.digikey.com/en/products/detail/johanson-technology-inc/5400BL15B0050001E/1560729",
+  "datasheet": "https://www.johansontechnology.com/datasheets/5400BL15B050/5400BL15B050.pdf",
+  "digikey_pn": "",
+  "stock_2026_10_27": 870
+ },
+ "0732511153": {
+  "manufacturer_dk": "Molex",
+  "digikey": "https://www.digikey.com/en/products/detail/molex/0732511153/11305709",
+  "datasheet": "https://www.molex.com/en-us/products/part-detail/732511153?display=pdf",
+  "digikey_pn": "",
+  "stock_2026_10_27": 7849
+ },
+ "MAX2871ETJ+T": {
+  "manufacturer_dk": "Analog Devices Inc./Maxim Integrated",
+  "digikey": "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX2871ETJ-T/4691590",
+  "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX2871.pdf",
+  "digikey_pn": "",
+  "stock_2026_10_27": 8401
+ },
+ "ADL5380ACPZ-R7": {
+  "manufacturer_dk": "Analog Devices Inc.",
+  "digikey": "https://www.digikey.com/en/products/detail/analog-devices-inc/ADL5380ACPZ-R7/2107486",
+  "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5380.pdf",
+  "digikey_pn": "",
+  "stock_2026_10_27": 4364
+ },
+ "GJM1555C1H2R2BB01D": {
+  "manufacturer_dk": "Murata Electronics",
+  "digikey": "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919",
+  "datasheet": "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H2R2BB01-01A-EN_PDF_CERAMICCAPACITORSMD",
+  "digikey_pn": "",
+  "stock_2026_10_27": 125417
+ }
+}

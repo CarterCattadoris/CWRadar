@@ -540,7 +540,7 @@
         "diff_pair_width": 0.2,
         "name": "ANALOG_BB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -558,7 +558,7 @@
         "clearance": 0.25,
         "name": "PWR_BATT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
@@ -569,7 +569,7 @@
         "clearance": 0.2,
         "name": "Power",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.4,
         "tuning_profile": "",
@@ -580,7 +580,7 @@
         "clearance": 0.2,
         "name": "RF",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.29,
         "tuning_profile": "",
@@ -590,7 +590,7 @@
       {
         "name": "SPI",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 0, 255)",
         "tuning_profile": ""
       },
@@ -600,7 +600,7 @@
         "diff_pair_width": 0.2,
         "name": "USB_90",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -676,11 +676,11 @@
       },
       {
         "netclass": "USB_90",
-        "pattern": "*/USB_DP"
+        "pattern": "*/USB_D_P"
       },
       {
         "netclass": "USB_90",
-        "pattern": "*/USB_DN"
+        "pattern": "*/USB_D_N"
       },
       {
         "netclass": "ANALOG_BB",
@@ -693,6 +693,70 @@
       {
         "netclass": "ANALOG_BB",
         "pattern": "*/Receiver/Q_*"
+      },
+      {
+        "netclass": "USB_90",
+        "pattern": "*/USBC_DP"
+      },
+      {
+        "netclass": "USB_90",
+        "pattern": "*/USBC_DN"
+      },
+      {
+        "netclass": "USB_90",
+        "pattern": "*/ESP_DP"
+      },
+      {
+        "netclass": "USB_90",
+        "pattern": "*/ESP_DN"
+      },
+      {
+        "netclass": "USB_90",
+        "pattern": "*/CHG_DP"
+      },
+      {
+        "netclass": "USB_90",
+        "pattern": "*/CHG_DN"
+      },
+      {
+        "netclass": "PWR_BATT",
+        "pattern": "+VBUS"
+      },
+      {
+        "netclass": "PWR_BATT",
+        "pattern": "+VBAT"
+      },
+      {
+        "netclass": "PWR_BATT",
+        "pattern": "+VSYS"
+      },
+      {
+        "netclass": "PWR_BATT",
+        "pattern": "*/Battery_Charger/BATT_*"
+      },
+      {
+        "netclass": "PWR_BATT",
+        "pattern": "*/Battery_Charger/CHG_PMID"
+      },
+      {
+        "netclass": "PWR_BATT",
+        "pattern": "*/Battery_Charger/CHG_SW"
+      },
+      {
+        "netclass": "ANALOG_BB",
+        "pattern": "*/Baseband_I/*"
+      },
+      {
+        "netclass": "ANALOG_BB",
+        "pattern": "*/Baseband_Q/*"
+      },
+      {
+        "netclass": "ANALOG_BB",
+        "pattern": "*/ADC/ADC_L"
+      },
+      {
+        "netclass": "ANALOG_BB",
+        "pattern": "*/ADC/ADC_R"
       }
     ]
   },
