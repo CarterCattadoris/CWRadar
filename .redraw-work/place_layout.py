@@ -382,9 +382,9 @@ SMA_Y = H - 4.76                     # SMA flange on the bottom edge (frame x = 
 XP, YP = 11.0, H - 14.5
 YL = YP - 16.0                       # LO guard lane centre: aggressors above, RF/analog below
 put("PLL601", XP, YP, 90)
-TX_X = 15.05                          # A_P turn: leaves a ~1 mm slot at the PLL for VCC_PLL + GND_PLL/GND_RF vias
+TX_X = 15.45                          # A_P turn: leaves a ~1 mm slot at the PLL for VCC_PLL + GND_PLL/GND_RF vias
 put("J601", TX_X, SMA_Y, 90)          # TX: centre pad straight under A_P's turn
-put("J602", 27.35, SMA_Y, 90)        # MON
+put("J602", 27.75, SMA_Y, 90)        # MON
 XD, YD = 85.5 + XS, H - 15.0
 put("DEMOD701", XD, YD, 180)
 put("T701", XD, YD + 6.2, 180)       # balanced pins up (to C702/C703), unbalanced pin 1 down to J701
@@ -402,16 +402,16 @@ two("C618", TX_X + 5.05, YP - 0.25, "R")
 # B pair -> LO: B_N turns north at x ~15.4, B_P at ~15.8 (coupled 100R pair), DC blocks side by side.
 #   R614 (B_N) taps from the west next to VCC_RF; R615 (B_P) from the east; C627 at R615's rail end,
 #   C610 (2.2 pF) + C611 (1 uF) on VCC_RF pin 16.
-two("R614", 14.65, YP - 2.35, "D")
+two("R614", 14.6, YP - 2.35, "D")
 two("C620", 15.3, YP - 4.5, "U")
 two("C621", 16.4, YP - 4.5, "U")
 two("R615", 16.95, YP - 1.5, "L")
 two("C627", 18.45, YP - 2.2, "U")
 two("C610", 13.7, YP - 4.2, "U")
-two("R612", 26.15, H - 9.6, "L")     # MON 50R termination at J602 (populate R612 or J602)
+two("R612", 26.55, H - 9.6, "L")     # MON 50R termination at J602 (populate R612 or J602)
 
 # PLL bottom corner: VCC_PLL decap fed down the slot beside the TX turn, CP_OUT C1, VCC_CP decap
-two("C609", 13.55, YP + 4.1, "U")    # pad 1 (+3V3_SYN_PLL) at the top, nearest pin 10's trace
+two("C609", 13.55, YP + 4.1, "D")    # pad 1 (+3V3_SYN_PLL) at the top, nearest pin 10's trace
 two("C622", 12.2, YP + 4.65, "D")    # 0603, pad 1 (CP_OUT) at the top under pin 7
 two("C607", 10.95, YP + 4.1, "D")    # VCC_CP (pin 6)
 
@@ -436,14 +436,14 @@ two("R705", XD - 3.2, YD, "D")           # Q diff load (DNP) across QHI/QLO
 
 # --- RF corridors (kept free of other parts; widths include gaps and fence vias)
 reserve(TX_X - 0.85, YP - 0.3, TX_X + 0.3, H - 7.0)  # TX
-reserve(13.5, YP - 0.9, 27.2, YP + 0.4)          # MON east
-reserve(26.5, YP - 0.5, 28.2, H - 7.0)           # MON down to J602
+reserve(13.5, YP - 0.9, 27.6, YP + 0.4)          # MON east
+reserve(26.9, YP - 0.5, 28.6, H - 7.0)           # MON down to J602
 reserve(13.5, YP - 1.6, 16.0, YP - 0.5)          # LO leaving the pins
 reserve(14.8, YL - 1.4, 17.0, YP - 1.6)          # LO north through C620/C621 to the guard lane
 reserve(14.8, YL - 1.4, XD + 1.3, YL + 1.4)      # LO east along the guard lane (dirty half above, clean below)
 reserve(XD - 1.1, YL - 1.4, XD + 1.1, YD - 1.9)  # LO down into DEMOD (top pins)
 reserve(XD - 1.3, YD + 2.0, XD + 1.5, H - 7.0)    # RX: C702/C703, balun, J701 launch
-reserve(TX_X + 1.05, YP + 0.45, 26.45, H - 7.0)  # TX-MON gap: GND pour + fence vias only
+reserve(TX_X + 1.05, YP + 0.45, 26.85, H - 7.0)  # TX-MON gap: GND pour + fence vias only
 reserve(XD + 4.7, YD - 6.0, XD + 6.1, YD + 0.7)  # I outputs: east past R704, then north to INA801
 reserve(58.0, YD - 0.7, XD - 3.8, YD + 0.7)      # Q outputs west to INA901
 
@@ -636,6 +636,14 @@ print("unplaced after BFS:", left)
 for ref in left:   # e.g. test points on GND only: drop near the board centre-left
     autoplace(ref, 50, 30)
 
+# thermal-via PTH pads inside exposed pads (and the module GND pad vias) connect solid; the pours use
+# thermal reliefs only for real through-hole parts
+for _f in B.GetFootprints():
+    for _p in _f.Pads():
+        if _p.GetAttribute() == pcbnew.PAD_ATTRIB_PTH and _p.GetNetname() == "GND" and \
+                pcbnew.ToMM(_p.GetDrillSize().x) <= 0.4:
+            _p.SetLocalZoneConnection(pcbnew.ZONE_CONNECTION_FULL)
+
 # ================================================================== zones: sig/GND/GND/sig
 # L2 and L3 are solid GND planes; L1 and L4 get GND pours (power is routed as traces / local fills).
 gnd = GND_NET
@@ -651,7 +659,12 @@ def add_zone(layer, net, pts, prio=0, name=""):
     ol.NewOutline()
     for x, y in pts:
         ol.Append(mm(OX + x), mm(OY + y))
-    z.SetPadConnection(pcbnew.ZONE_CONNECTION_FULL)
+    z.SetPadConnection(pcbnew.ZONE_CONNECTION_THT_THERMAL)   # SMD solid (reflow), THT thermal reliefs
+    z.SetLocalClearance(mm(0.2))                             # = CPWG gap on the RF lines
+    z.SetMinThickness(mm(0.2))
+    z.SetThermalReliefGap(mm(0.3))
+    z.SetThermalReliefSpokeWidth(mm(0.4))
+    z.SetIslandRemovalMode(pcbnew.ISLAND_REMOVAL_MODE_ALWAYS)   # no floating copper
     B.Add(z)
     return z
 

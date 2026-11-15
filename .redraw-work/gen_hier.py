@@ -874,13 +874,8 @@ for i in range(4):
     gnd(*H["1"])
 box(25.4, 35.56, 116.84, 71.12, "MOUNTING")
 text("M3 plated holes tied to GND, one per corner.", 27.94, 40.64)
-text("Count and positions TBD at layout (4 placeholders).", 27.94, 43.18)
-for i in range(3):  # JLC PCBA: top side, 1 mm copper / 2 mm mask
-    x = 38.1 + 20.32 * i
-    place(f"FID{i + 1}", "Mechanical:Fiducial", x, 93.98, value="Fiducial", fp="Fiducial:Fiducial_1mm_Mask2mm",
-          fields={"Reference": (x + 2.54, 92.71, 0, False, "left"), "Value": (x + 2.54, 95.25, 0, False, "left")})
-text("Top side, 1 mm copper / 2 mm mask (JLC PCBA).", 27.94, 86.36)
-box(25.4, 81.28, 116.84, 109.22, "FIDUCIALS")
+text("One per corner, 4 mm from each edge (concentric with the 4 mm corner radii).", 27.94, 43.18)
+# Fiducials removed (Carter, 2026-11-15): the board is hand-assembled (stencil + reflow), no pick-and-place.
 text("Shield-can frames: TBD at layout (RF zone: Synthesizer + Receiver).", 27.94, 127.0)
 box(25.4, 116.84, 116.84, 137.16, "SHIELD CANS")
 emit_sheet("Mechanical", "Mechanical", "mechanical.kicad_sch")
