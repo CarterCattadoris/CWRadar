@@ -1,0 +1,32 @@
+ERC report (2026-11-15T13:48:36, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+
+***** Sheet /Battery_Charger/
+
+***** Sheet /Regulators/
+
+***** Sheet /MCU/
+
+***** Sheet /User_IO/
+
+***** Sheet /Synthesizer/
+
+***** Sheet /Receiver/
+
+***** Sheet /Baseband_I/
+
+***** Sheet /Baseband_Q/
+
+***** Sheet /ADC/
+
+***** Sheet /Mechanical/
+
+ ** ERC messages: 0  Errors 0  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

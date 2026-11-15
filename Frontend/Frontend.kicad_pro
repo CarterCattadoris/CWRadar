@@ -256,7 +256,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "V1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -896,6 +896,46 @@
     [
       "b0666bf5-aed6-40cf-96a3-97fbd780bef0",
       "Frontend"
+    ],
+    [
+      "e5e52606-975f-563b-9bcb-7c3ef0131eff",
+      "Battery_Charger"
+    ],
+    [
+      "e0beed7e-c4e9-51f0-a533-ea66ed93453e",
+      "Regulators"
+    ],
+    [
+      "79fdb4ca-9c78-56b3-8de3-13218f55b758",
+      "MCU"
+    ],
+    [
+      "5cfde6df-3bd2-515a-b1a3-775acf49fced",
+      "User_IO"
+    ],
+    [
+      "6d1c5a0e-3f7b-4c2a-9a51-5b0f2e8c6006",
+      "Synthesizer"
+    ],
+    [
+      "dd06959b-3719-5c06-9e12-8b97032d8100",
+      "Receiver"
+    ],
+    [
+      "b82ff77b-5ab6-5771-bac3-2c9243036be0",
+      "Baseband_I"
+    ],
+    [
+      "aaf70192-3323-5607-933a-a133308854e2",
+      "Baseband_Q"
+    ],
+    [
+      "9d436e10-a2ad-56ef-af7a-90d01a7fabf0",
+      "ADC"
+    ],
+    [
+      "245b0410-a5cb-5ab1-a192-933e2f7ca753",
+      "Mechanical"
     ]
   ],
   "text_variables": {},

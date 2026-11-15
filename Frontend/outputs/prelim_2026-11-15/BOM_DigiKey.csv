@@ -1,0 +1,87 @@
+Quantity,Manufacturer Part Number,Manufacturer,Customer Reference,Description,DigiKey URL
+1,PCM1808PWR,Texas Instruments,ADC1001,PCM1808,https://www.digikey.com/en/products/detail/texas-instruments/PCM1808PWR/1573355
+2,TPS62933FDRLR,Texas Instruments,"BUCK301,BUCK302",TPS62933F,https://www.digikey.com/en/products/detail/texas-instruments/TPS62933FDRLR/16669312
+6,C0603C105K3RACTU,KEMET,"C201,C334,C807,C816,C907,C916",1u,https://www.digikey.com/en/products/detail/kemet/C0603C105K3RACTU/3317582
+3,TMK212BBJ106KD-T,Taiyo Yuden,"C202,C301,C307",10u,https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212BBJ106KD-T/7403952
+1,GRM155R71H473KE14D,Murata,C203,47n,https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71H473KE14D/4905190
+11,12063D226KAT2A,KYOCERA AVX,"C204,C205,C206,C207,C208,C209,C305,C306,C311,C312,C401",22u,https://www.digikey.com/en/products/detail/kyocera-avx/12063D226KAT2A/6148999
+1,GRM188R61E475KE11D,Murata,C210,4u7,https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E475KE11D/3900465
+23,CL05B104KB54PNC,Samsung Electro Mechanics,"C302,C304,C308,C310,C314,C319,C324,C329,C402,C502,C503,C504,C605,C705,C707,C709,C806,C815,C906,C915,C1002,C1004,C1006",100n,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KB54PNC/11487801?s=N4IgTCBcDaIMIBkAMBWAQgRiQFgNJpWwAUA5OEAXQF8g
+2,CL05B223KB5NNNC,Samsung,"C303,C309",22n,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B223KB5NNNC/10478981
+12,CL21B106KOQNNNE,Samsung,"C313,C318,C323,C328,C333,C501,C601,C604,C701,C1001,C1003,C1005",10u,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B106KOQNNNE/3888530
+9,CL05B103KB5NNNC,Samsung,"C315,C316,C320,C321,C325,C326,C330,C331,C606",10n,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686
+4,GRM31CR61A476ME15L,Murata,"C317,C322,C327,C332",47u,https://www.digikey.com/en/products/detail/murata-electronics/GRM31CR61A476ME15L/2334879
+14,CL05A105KP5NNNC,Samsung,"C403,C602,C603,C607,C608,C609,C611,C612,C613,C614,C615,C616,C625,C628",1u,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KP5NNNC/3886734
+9,GJM1555C1H2R2BB01D,Murata,"C610,C618,C619,C620,C621,C626,C627,C702,C703",2p2,https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919
+1,GRM1555C1H102JA01D,Murata,C617,1n,https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H102JA01D/702509
+1,C0603C123J3GACTU,KEMET,C622,12n,https://www.digikey.com/en/products/detail/kemet/C0603C123J3GACTU/2199873
+1,ECH-U1H104GX9,Panasonic,C623,100n,https://www.digikey.com/en/products/detail/panasonic-industry/ECH-U1H104GX9/1630897
+1,GRM1555C1H821JA01D,Murata,C624,820p,https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H821JA01D/702507
+3,GRM1555C1H101JA01D,Murata,"C704,C706,C708",100p,https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H101JA01D/3693829
+6,CB052E0105JBC,KYOCERA AVX,"C801,C802,C812,C901,C902,C912",1u,https://www.digikey.com/en/products/detail/kyocera-avx/CB052E0105JBC/1645818
+4,GRM1555C1H471GA01D,Murata,"C803,C804,C903,C904",470p,https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H471GA01D/2544059
+2,GCM1885C1H472GA16D,Murata,"C805,C905",4n7,https://www.digikey.com/en/products/detail/murata-electronics/GCM1885C1H472GA16D/16033869
+6,GRM3195C2A104GA01D,Murata,"C808,C809,C814,C908,C909,C914",100n,https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C2A104GA01D/16033450
+2,C0603C682F5GACTU,KEMET,"C810,C910",6n8,https://www.digikey.com/en/products/detail/kemet/C0603C682F5GACTU/2201109
+2,GCM1885C1H332FA16D,Murata,"C811,C911",3n3,https://www.digikey.com/en/products/detail/murata-electronics/GCM1885C1H332FA16D/10231654
+2,T520B476M010ATE070,KEMET,"C813,C913",47u,https://www.digikey.com/en/products/detail/kemet/T520B476M010ATE070/1129669
+1,BQ25883RGET,Texas Instruments,CHG201,BQ25883,https://www.digikey.com/en/products/detail/texas-instruments/BQ25883RGET/10434658
+1,LTST-C191KFKT,Lite-On,D201,ORG,https://www.digikey.com/en/products/detail/liteon/LTST-C191KFKT/386833
+1,SMF6.5A-TP,MCC,D204,SMF6.5A,https://www.digikey.com/en/products/detail/mcc-micro-commercial-components/SMF6-5A-TP/5114165
+1,LTST-C191KGKT,Lite-On,D501,GRN,https://www.digikey.com/en/products/detail/liteon/LTST-C191KGKT/386835
+1,LTST-C191KSKT,Lite-On,D502,YEL,https://www.digikey.com/en/products/detail/liteon/LTST-C191KSKT/386839
+1,LTST-C191KRKT,Lite-On,D503,RED,https://www.digikey.com/en/products/detail/liteon/LTST-C191KRKT/386837
+1,ADL5380ACPZ-R7,Analog Devices,DEMOD701,ADL5380,https://www.digikey.com/en/products/detail/analog-devices-inc/ADL5380ACPZ-R7/2107486?s=N4IgTCBcDaIIYBMA2BWAzADgAwgLoF8g
+2,USBLC6-2SC6,STMicroelectronics,"ESD202,ESD203",USBLC6-2SC6,https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/1040559
+1,0466003.NR,Littelfuse,F201,3A,https://www.digikey.com/en/products/detail/littelfuse-inc/0466003-NR/521339
+2,INA819IDR,Texas Instruments,"INA801,INA901",INA819,https://www.digikey.com/en/products/detail/texas-instruments/INA819IDR/10448284
+1,B2B-XH-A,JST,J201,XH_2P,https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A/1651045
+1,B2B-PH-K-S,JST,J301,PH_2P,https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-PH-K-S/926611
+1,61201021621,Würth Elektronik,J501,BOX_2x05,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61201021621/2060590
+1,0732511153,Molex,J601,TX SMA,https://www.digikey.com/en/products/detail/molex/0732511153/11305709
+1,0732511153,Molex,J701,RX SMA,https://www.digikey.com/en/products/detail/molex/0732511153/11305709
+1,74438357010,Würth Elektronik,L201,1uH,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/74438357010/6833535
+1,SRP7028A-100M,Bourns,L301,10uH,https://www.digikey.com/en/products/detail/bourns-inc/SRP7028A-100M/4876641
+1,74438357068,Würth Elektronik,L302,6.8uH,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/74438357068/6833542
+4,TPS7A8300RGRR,Texas Instruments,"LDO303,LDO304,LDO305,LDO306",TPS7A8300,https://www.digikey.com/en/products/detail/texas-instruments/TPS7A8300RGRR/4895612
+1,ESP32-S3-WROOM-1-N16R2,Espressif,MCU401,ESP32-S3-WROOM-1-N16R2,https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N16R2/16162644
+2,OPA4388IPWR,Texas Instruments,"OPA801,OPA901",OPA4388,https://www.digikey.com/en/products/detail/texas-instruments/OPA4388IPWR/10434812
+1,MAX2871ETJ+T,Analog Devices,PLL601,MAX2871ETJ_T,https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX2871ETJ-T/4691590
+1,AO3401A,Alpha & Omega,Q201,AO3401A,https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3401A/1855773
+1,2N7002K,onsemi,Q501,2N7002K,https://www.digikey.com/en/products/detail/onsemi/2N7002K/2060348
+7,RC0603JR-070RL,YAGEO,"R201,R301,R601,R602,R603,R618,R701",0R,https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675
+5,RC0402JR-070RL,YAGEO,"R202,R203,R403,R404,R702",0R,https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406
+3,RC0402FR-075K1L,YAGEO,"R204,R206,R610",5k1,https://www.digikey.com/en/products/detail/yageo/RC0402FR-075K1L/726624
+10,RC0402FR-0710KL,YAGEO,"R205,R207,R208,R304,R307,R401,R402,R507,R508,R1001",10k,https://www.digikey.com/en/products/detail/yageo/RC0402FR-0710KL/726523
+1,RC0402FR-07392RL,YAGEO,R209,392,https://www.digikey.com/en/products/detail/yageo/RC0402FR-07392RL/5281005
+1,RC0402FR-075K23L,YAGEO,R210,5k23,https://www.digikey.com/en/products/detail/yageo/RC0402FR-075K23L/5281055
+1,RC0402FR-0730K1L,YAGEO,R211,30k1,https://www.digikey.com/en/products/detail/yageo/RC0402FR-0730K1L/726587
+9,RC0402FR-07100KL,YAGEO,"R212,R410,R608,R609,R619,R801,R802,R901,R902",100k,https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526
+2,ERJ-2RKF1501X,Panasonic,"R213,R509",1k5,https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-2RKF1501X/192060
+1,RC0402FR-0751K1L,YAGEO,R302,51k1,https://www.digikey.com/en/products/detail/yageo/RC0402FR-0751K1L/726630
+1,RC0402FR-0760K4L,YAGEO,R303,60k4,https://www.digikey.com/en/products/detail/yageo/RC0402FR-0760K4L/726643
+1,RC0402FR-0720K5L,YAGEO,R305,20k5,https://www.digikey.com/en/products/detail/yageo/RC0402FR-0720K5L/5280912
+1,RC0402FR-0731K6L,YAGEO,R306,31k6,https://www.digikey.com/en/products/detail/yageo/RC0402FR-0731K6L/5280975
+3,RC0402FR-07113KL,YAGEO,"R308,R806,R906",113k,https://www.digikey.com/en/products/detail/yageo/RC0402FR-07113KL/2345131
+1,RC0402FR-0730K9L,YAGEO,R309,30k9,https://www.digikey.com/en/products/detail/yageo/RC0402FR-0730K9L/5280970
+3,RT0402BRD07105KL,YAGEO,"R310,R312,R314",105k,https://www.digikey.com/en/products/detail/yageo/RT0402BRD07105KL/5926095
+3,ERA-2AEB203X,Panasonic,"R311,R313,R315",20k,https://www.digikey.com/en/products/detail/panasonic-industry/ERA-2AEB203X/1706036
+10,RC0402FR-0733RL,YAGEO,"R405,R406,R407,R501,R502,R503,R504,R505,R506,R1002",33,https://www.digikey.com/en/products/detail/yageo/RC0402FR-0733RL/726593
+2,CRCW04024K70FKED,Vishay Dale,"R408,R409",4k7,https://www.digikey.com/en/products/detail/vishay-dale/CRCW04024K70FKED/1178083
+2,RC0402FR-07680RL,YAGEO,"R510,R511",680,https://www.digikey.com/en/products/detail/yageo/RC0402FR-07680RL/726654
+1,CRGP0603F10R,TE Connectivity,R604,10,https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGP0603F10R/8576994
+5,RC0402FR-0747RL,YAGEO,"R605,R606,R607,R816,R916",47,https://www.digikey.com/en/products/detail/yageo/RC0402FR-0747RL/2827566
+5,RC0402FR-0749R9L,YAGEO,"R611,R612,R613,R614,R615",49R9,https://www.digikey.com/en/products/detail/yageo/RC0402FR-0749R9L/726621
+1,RC0402FR-07120RL,YAGEO,R616,120,https://www.digikey.com/en/products/detail/yageo/RC0402FR-07120RL/726535
+1,RC0402FR-07249RL,YAGEO,R617,249,https://www.digikey.com/en/products/detail/yageo/RC0402FR-07249RL/2827604
+4,RC0402FR-071KL,YAGEO,"R803,R804,R903,R904",1k,https://www.digikey.com/en/products/detail/yageo/RC0402FR-071KL/726513
+2,ERA-2AEB5491X,Panasonic,"R805,R905",5k49,https://www.digikey.com/en/products/detail/panasonic-industry/ERA-2AEB5491X/2026120
+2,ERJ-2RKF2263X,Panasonic,"R807,R907",226k,https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-2RKF2263X/192233
+6,ERA-2AEB103X,Panasonic,"R808,R814,R815,R908,R914,R915",10k,https://www.digikey.com/en/products/detail/panasonic-industry/ERA-2AEB103X/1706029
+2,ERA-2AEB3321X,Panasonic,"R809,R909",3k32,https://www.digikey.com/en/products/detail/panasonic-industry/ERA-2AEB3321X/2026099
+4,RC0402FR-0711K3L,YAGEO,"R812,R813,R912,R913",11k3,https://www.digikey.com/en/products/detail/yageo/RC0402FR-0711K3L/726529
+1,NTCG163JF103FT1S,TDK,RT201,10k B3435,https://www.digikey.com/en/products/detail/tdk/NTCG163JF103FT1S/2658337
+1,OS102011MS2QN1,C&K,SW301,SW_SLIDE,https://www.digikey.com/en/products/detail/c-k/OS102011MS2QN1/411602
+4,TL3342F160QG/TR,E-Switch,"SW401,SW402,SW501,SW502",SW_TACT,https://www.digikey.com/en/products/detail/e-switch/TL3342F160QG-TR/379003
+1,5400BL15B0050001E,Johanson Technology,T701,5400BL15B050,https://www.digikey.com/en/products/detail/johanson-technology-inc/5400BL15B0050001E/1560729
+1,USB4105-GF-A,GCT,USB201,USB4105-GF-A,https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441
