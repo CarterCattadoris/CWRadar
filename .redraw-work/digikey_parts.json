@@ -586,5 +586,19 @@
   "datasheet": "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H2R2BB01-01A-EN_PDF_CERAMICCAPACITORSMD",
   "digikey_pn": "",
   "stock_2026_10_27": 125417
+ },
+ "525L25010ITR": {
+  "manufacturer_dk": "CTS-Frequency Controls",
+  "digikey": "https://www.digikey.com/en/products/detail/cts-frequency-controls/525L25010ITR/16365180",
+  "datasheet": "https://www.ctscorp.com/Files/DataSheets/Passives/FCP/TCXO/TCXO-525-datasheet.pdf",
+  "digikey_pn": "110-525L25010ITRCT-ND",
+  "stock_2026_11_15": 689
+ },
+ "GRM31C5C1E474JE01L": {
+  "manufacturer_dk": "Murata Electronics",
+  "digikey": "https://www.digikey.com/en/products/detail/murata-electronics/GRM31C5C1E474JE01L/16033870",
+  "datasheet": "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM31C5C1E474JE01-01A-EN_PDF_CERAMICCAPACITORSMD",
+  "digikey_pn": "490-GRM31C5C1E474JE01LCT-ND",
+  "stock_2026_11_15": 84311
  }
 }

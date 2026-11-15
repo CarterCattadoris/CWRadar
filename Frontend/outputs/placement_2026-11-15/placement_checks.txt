@@ -1,0 +1,80 @@
+board 92.1 x 66.1 mm
+
+min courtyard gap, aggressor -> victim (mm):
+                             BUCK1 (+VPRE)  BUCK2 (+3V3_D) Charger SW loo   ESP32 module          USB-C
+PLL + loop filter                      38.7           50.8           35.9           24.3           38.7
+TCXO / REF                             45.9           58.3           41.7           24.3           43.0
++3V3_SYN LDO (LDO305)                  38.0           50.4           33.9           18.5           35.6
+DEMOD + RX                             32.0           29.5           45.1           55.4           53.7
++5V_RF LDO (LDO303)                    30.9           32.7           40.1           46.3           49.7
+I in-amp + inputs                      30.5           26.1           43.9           56.1           52.2
+Q in-amp + inputs                      23.4           26.5           30.4           34.0           40.1
+I/Q op-amps                            22.2           21.2           29.4           28.1           38.8
+ADC analog side                        16.8           16.8           27.6           36.5           36.9
++5V_A LDO (LDO304)                     18.5           23.1           24.3           25.2           33.9
+
+tightest pairs: BUCK1 (+VPRE) SW loop -> ADC analog side 16.8, BUCK2 (+3V3_D) SW loop -> ADC analog side 16.8, BUCK1 (+VPRE) SW loop -> +5V_A LDO (LDO304) 18.5, ESP32 module -> +3V3_SYN LDO (LDO305) 18.5, BUCK2 (+3V3_D) SW loop -> I/Q op-amps 21.2, BUCK1 (+VPRE) SW loop -> I/Q op-amps 22.2
+
+longest single ratsnest links (signals; power rails listed separately):
+    62.5 mm  (net total   62.5, 2 pads)  /Receiver/LO_N
+    60.9 mm  (net total   60.9, 2 pads)  /Receiver/LO_P
+    53.0 mm  (net total   55.0, 3 pads)  /MCU/EN_ANALOG
+    52.4 mm  (net total   52.4, 2 pads)  /ADC/I2S_DOUT
+    49.9 mm  (net total   49.9, 2 pads)  /ADC/I2S_BCK
+    49.0 mm  (net total   49.0, 2 pads)  /MCU/SYN_SCK
+    48.0 mm  (net total   48.0, 2 pads)  /MCU/SYN_MOSI
+    46.8 mm  (net total   46.8, 2 pads)  /MCU/SYN_LE
+    46.6 mm  (net total   46.6, 2 pads)  /ADC/I2S_MCLK
+    44.4 mm  (net total   44.4, 2 pads)  /MCU/SYN_MISO
+    43.6 mm  (net total   51.3, 3 pads)  /Synthesizer/SYN_CE
+    43.4 mm  (net total   43.4, 2 pads)  /ADC/I2S_LRCK
+    37.7 mm  (net total   65.5, 5 pads)  /MCU/BTN2
+    36.8 mm  (net total   48.5, 3 pads)  /Synthesizer/SYN_LD
+    33.9 mm  (net total   47.4, 6 pads)  /Regulators/EN_BUCK
+    31.6 mm  (net total   34.1, 4 pads)  /Baseband_Q/BB_LPFOUT
+    31.0 mm  (net total   42.9, 4 pads)  /Synthesizer/SYN_RFOUT_EN
+    28.9 mm  (net total   33.0, 4 pads)  /Baseband_Q/IN_N
+    26.7 mm  (net total   32.0, 4 pads)  /Baseband_Q/IN_P
+    26.1 mm  (net total   30.9, 3 pads)  /Baseband_Q/BB_HPFX
+    25.6 mm  (net total   50.2, 5 pads)  /MCU/BTN1
+    25.3 mm  (net total   25.3, 2 pads)  /MCU/DISP_RST
+
+power rails, total MST length:
+   144.5 mm  longest link  24.3   23 pads  +3V3_D
+   136.2 mm  longest link  35.2   28 pads  +VPRE
+    77.7 mm  longest link   9.9   24 pads  +5V_A
+    42.4 mm  longest link  14.1   10 pads  +VBUS
+    39.3 mm  longest link   6.9   14 pads  +VSYS
+    39.0 mm  longest link  22.3    6 pads  +VBAT
+    33.6 mm  longest link   6.8   13 pads  +3V3_SYN
+    28.6 mm  longest link  18.3    8 pads  +5V_RF
+    21.9 mm  longest link   3.9   12 pads  +5V_DEMOD
+    21.0 mm  longest link   4.0   11 pads  +3V3_SYN_RF
+    18.7 mm  longest link  10.1    6 pads  +3V3_SYN_DIG
+    14.8 mm  longest link   7.1    6 pads  +3V3_SYN_PLL
+    12.8 mm  longest link   2.7    8 pads  +V_LNA
+    11.8 mm  longest link   3.6    5 pads  +3V3_SYN_REF
+
+ratsnest links crossing the LO lane (y = 35.5, x 15..78): 6
+  1x +VPRE
+  1x +3V3_D
+  1x /ADC/I2S_BCK
+  1x /ADC/I2S_DOUT
+  1x /ADC/I2S_MCLK
+  1x /ADC/I2S_LRCK
+
+routing demand (mm of ratsnest per 5 mm cell; L1+L4 capacity is roughly 2 x 5 mm / 0.35 mm pitch x 5 mm ~ 140):
+  y   0    0    3    0    0    0    6    0    5    0    1    1    4    0    0    5    1    0    0    0
+  y   5    4   25    0    6   11   22   29   23   10   12   15    1    2    0    7    2    0    0    0
+  y  10    7   49   11   15   14   36   23   17   47   24   27   25   32   11   26    8    0    0    0
+  y  15   13   53   25   14   19   42   25   29   44   11    9   12   20    8    6    1    0    0    0
+  y  20   19   34   19   34   46   35   19   17   29   11   16    9    8    0    2    6    3    0    0
+  y  25   11   32   13    5   37   33   28    4    2    0    5    0    5    0    0    0    4    5    0
+  y  30    2   46   24   12   22   15   12   29   19    6    9    4    2    0    0    0    0    0    0
+  y  35    7   29   10    9    1    0    0    2   16   15    8    8    6    2    7    6    8    7    0
+  y  40   23   34   24   19    7    5    9    7   17   24   16   24   25   28   17   20   11   15    3
+  y  45   20   34   37   34   12   10   25   30   28   27   46   35   24   31   35   26   19   24    2
+  y  50   17   28   22   16    6    0   22   19   19   30   13    8   14   27   15   14   25   11    0
+  y  55    4    5    6    4    0    6    0    1    0   21   15    6   20   12    5    5    1    1    0
+  y  60    0    0    0    3    0    3    0    0    0    0    0    0    0    1    0    3    0    0    0
+  y  65    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0

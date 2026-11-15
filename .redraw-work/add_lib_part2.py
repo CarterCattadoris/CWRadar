@@ -143,7 +143,11 @@ for name, val, fp, desc, mfr, mpn in [
         ("2p2", "2p2", "Capacitor_SMD:C_0402_1005Metric", "2.2 pF ±0.1 pF 50V C0G 0402, high-Q, series-resonant ~5.8 GHz",
          "Murata", "GJM1555C1H2R2BB01D"),
         ("1u_PET", "1u", "cwradar:C_AVX_CB_2824", "1 µF ±5% 100V PET stacked film, KYOCERA AVX CB 2824 (7.2 x 6.1 mm)",
-         "KYOCERA AVX", "CB052E0105JBC")]:
+         "KYOCERA AVX", "CB052E0105JBC"),
+        # baseband AC coupling, replaces 1u_PET (Carter, 2026-11-15): C0G has no DC-bias loss or piezo effect,
+        # 1 uF C0G only exists in 1825/2220 (not stocked); 0.47 uF moves the corners to 3.4 Hz / 5.6 Hz
+        ("470n_C0G", "470n", "Capacitor_SMD:C_1206_3216Metric", "0.47 µF ±5% 25V C0G 1206", "Murata",
+         "GRM31C5C1E474JE01L")]:
     cap(name, val, fp, desc, mfr, mpn)
 
 # polymer tantalum (polarized)
@@ -311,6 +315,15 @@ add("PCM1808PWR", ic(
     up=[("3", "VCC", "power_in", -2.54), ("4", "VDD", "power_in", 2.54)],
     down=[("2", "AGND", "power_in", -5.08), ("5", "DGND", "power_in", -2.54), ("10", "MD0", "input", 2.54),
           ("11", "MD1", "input", 5.08), ("12", "FMT", "input", 7.62)]))
+
+# CTS 525 TCXO (DOC# 008-0334-0 Rev. C, Pin Assignments p.5): 1 VC/GND (TCXO: float or GND), 2 GND,
+# 3 OUT (DC-cut cap required, 1 nF = C617), 4 VCC. Land pattern p.5: 1.4 x 1.2 pads on 2.2 x 1.6 pitch,
+# matched by the stock 3225 crystal footprint (2.2 x 1.7 pitch). Phase noise -135.5 dBc/Hz @ 1 kHz (26 MHz, p.4).
+if have("TCXO_2520"):
+    add("525L25010ITR", fields(rename(block(text, "TCXO_2520"), "TCXO_2520", "525L25010ITR"), "25MHz",
+                               "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+                               "25 MHz TCXO, +/-1 ppm, 3.3 V, clipped sine, 3.2x2.5 mm (pin 1 VC/NC, 2 GND, 3 OUT, 4 VCC)",
+                               "CTS-Frequency Controls", "525L25010ITR"))
 
 out = text.rstrip()
 assert out.endswith(")")

@@ -15,13 +15,12 @@ Quantity,Manufacturer Part Number,Manufacturer,Customer Reference,Description,Di
 9,GJM1555C1H2R2BB01D,Murata,"C610,C618,C619,C620,C621,C626,C627,C702,C703",2p2,https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H2R2BB01D/2592919
 1,GRM1555C1H102JA01D,Murata,C617,1n,https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H102JA01D/702509
 1,C0603C123J3GACTU,KEMET,C622,12n,https://www.digikey.com/en/products/detail/kemet/C0603C123J3GACTU/2199873
-1,ECH-U1H104GX9,Panasonic,C623,100n,https://www.digikey.com/en/products/detail/panasonic-industry/ECH-U1H104GX9/1630897
 1,GRM1555C1H821JA01D,Murata,C624,820p,https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H821JA01D/702507
 3,GRM1555C1H101JA01D,Murata,"C704,C706,C708",100p,https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H101JA01D/3693829
-6,CB052E0105JBC,KYOCERA AVX,"C801,C802,C812,C901,C902,C912",1u,https://www.digikey.com/en/products/detail/kyocera-avx/CB052E0105JBC/1645818
+6,GRM31C5C1E474JE01L,Murata,"C801,C802,C812,C901,C902,C912",470n,https://www.digikey.com/en/products/detail/murata-electronics/GRM31C5C1E474JE01L/16033870
 4,GRM1555C1H471GA01D,Murata,"C803,C804,C903,C904",470p,https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H471GA01D/2544059
 2,GCM1885C1H472GA16D,Murata,"C805,C905",4n7,https://www.digikey.com/en/products/detail/murata-electronics/GCM1885C1H472GA16D/16033869
-6,GRM3195C2A104GA01D,Murata,"C808,C809,C814,C908,C909,C914",100n,https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C2A104GA01D/16033450
+7,GRM3195C2A104GA01D,Murata,"C623,C808,C809,C814,C908,C909,C914",100n,https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C2A104GA01D/16033450
 2,C0603C682F5GACTU,KEMET,"C810,C910",6n8,https://www.digikey.com/en/products/detail/kemet/C0603C682F5GACTU/2201109
 2,GCM1885C1H332FA16D,Murata,"C811,C911",3n3,https://www.digikey.com/en/products/detail/murata-electronics/GCM1885C1H332FA16D/10231654
 2,T520B476M010ATE070,KEMET,"C813,C913",47u,https://www.digikey.com/en/products/detail/kemet/T520B476M010ATE070/1129669
@@ -85,3 +84,4 @@ Quantity,Manufacturer Part Number,Manufacturer,Customer Reference,Description,Di
 4,TL3342F160QG/TR,E-Switch,"SW401,SW402,SW501,SW502",SW_TACT,https://www.digikey.com/en/products/detail/e-switch/TL3342F160QG-TR/379003
 1,5400BL15B0050001E,Johanson Technology,T701,5400BL15B050,https://www.digikey.com/en/products/detail/johanson-technology-inc/5400BL15B0050001E/1560729
 1,USB4105-GF-A,GCT,USB201,USB4105-GF-A,https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441
+1,525L25010ITR,CTS-Frequency Controls,Y601,25MHz TCXO,https://www.digikey.com/en/products/detail/cts-frequency-controls/525L25010ITR/16365180

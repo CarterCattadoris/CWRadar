@@ -63,3 +63,43 @@
 (rule "EP thermal vias"
   (constraint annular_width (min 0.15mm))
   (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole' && (A.memberOfFootprint('PLL*') || A.memberOfFootprint('DEMOD*'))"))
+
+# ---- added 2026-11-15 with the first placement pass ----
+# Impedances from a 2D field solve of JLC04161H-7628 (L1-L2 prepreg 0.2104 mm, er 4.4, 1 oz outer,
+# 13 um mask): 50R CPWG = 0.28 mm / 0.20 mm gap (current RF_50 rule is within 1 ohm);
+# 100R coupled CPWG = 0.19 mm / 0.20 mm gap / 0.20 mm to ground; 90R = 0.19 mm / 0.15 mm gap.
+(rule "LO_100 coupled pair"
+  (condition "A.NetClass == 'RF' && A.inDiffPair('/Receiver/LO_*')")
+  (constraint track_width (min 0.17mm) (opt 0.19mm) (max 0.21mm))
+  (constraint diff_pair_gap (min 0.18mm) (opt 0.20mm) (max 0.22mm)))
+
+(rule "USB_90 pair geometry"
+  (condition "A.NetClass == 'USB_90'")
+  (constraint track_width (opt 0.19mm))
+  (constraint diff_pair_gap (opt 0.15mm)))
+
+# SMA launch: the 2.29 mm centre pad is ~13 ohm over L2. L2 is cut out under it (rule area in the
+# board) and L3 carries a GND island, giving ~46-48 ohm when the L1 pour stays >= 1.2 mm away.
+(rule "SMA centre pad keepback"
+  (condition "A.Type == 'Pad' && A.Pad_Number == '1' && (A.memberOfFootprint('J601') || A.memberOfFootprint('J602') || A.memberOfFootprint('J701')) && B.Type == 'Zone'")
+  (constraint clearance (min 1.2mm)))
+
+# Footprint-internal pad gaps below the power-class clearances (USB-C 0.5 mm pitch, QFN EP, SOT-583).
+(rule "Fine-pitch power IC escape"
+  (constraint clearance (min 0.15mm))
+  (condition "A.intersectsCourtyard('USB201') || A.intersectsCourtyard('CHG201') || A.intersectsCourtyard('BUCK301') || A.intersectsCourtyard('BUCK302')"))
+
+(rule "USB-C peg holes"
+  (constraint hole_clearance (min 0.15mm))
+  (condition "A.memberOfFootprint('USB201') || B.memberOfFootprint('USB201')"))
+
+# Footprint thermal-via arrays (0.2 mm drill) in the TPS7A8300, BQ25883 and ESP32 footprints are accepted
+# as-is (Carter, 2026-11-15); JST PH / USB-C footprint annular rings are the vendor land patterns.
+(rule "Footprint thermal vias"
+  (constraint hole_size (min 0.2mm))
+  (constraint annular_width (min 0.15mm))
+  (condition "A.Type == 'Pad' && (A.memberOfFootprint('LDO30*') || A.memberOfFootprint('CHG201') || A.memberOfFootprint('MCU401'))"))
+
+(rule "Vendor THT land patterns"
+  (constraint annular_width (min 0.1mm))
+  (condition "A.Type == 'Pad' && (A.memberOfFootprint('J203') || A.memberOfFootprint('J301') || A.memberOfFootprint('USB201'))"))

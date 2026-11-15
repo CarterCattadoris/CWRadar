@@ -73,7 +73,7 @@ for lid in ["power:GND", "Device:C",
 for n in ["1u", "10u", "0R", "10", "100n", "10n", "1n", "47", "100k", "120",
           "249", "49R9", "5k1", "12n", "820p", "+3V3_SYN", "+3V3_SYN_RF",
           "+3V3_SYN_PLL", "+3V3_SYN_DIG", "+3V3_SYN_REF", "+3V3_SYN_VCO",
-          "MAX2871ETJ_T", "TCXO_2520", "ADL5380ACPZ-R7", "5400BL15B050", "100p", "0R_0402", "100n_PPS",
+          "MAX2871ETJ_T", "525L25010ITR", "ADL5380ACPZ-R7", "5400BL15B050", "100p", "0R_0402", "100n_C0G",
           "+5V", "+5V_DEMOD"]:
     embed_from_lib(f"cwradar:{n}", cw_text, is_text=True)
 embed_from_lib("Device:R", f"{STD}/Device.kicad_sym")
@@ -82,7 +82,7 @@ embed_from_lib("Mechanical:Fiducial", f"{STD}/Mechanical.kicad_sym")
 for n in ["10k", "4k7", "1k5", "392", "5k23", "30k1", "113k", "30k9", "60k4", "31k6", "51k1", "20k5", "33", "1k",
           "226k", "11k3", "680", "5k49_0p1", "10k_0p1", "3k32_0p1", "1k1_0p1", "15k_0p1", "105k_0p1", "20k_0p1",
           "1u_25V", "10u_25V", "22u_25V", "47u_10V", "4u7_25V", "47n", "22n", "470p_C0G", "4n7_C0G", "6n8_C0G",
-          "3n3_C0G", "100n_C0G", "2p2", "1u_PET", "47u_POLY", "1uH", "6u8H", "10uH", "3A_FAST", "10k_NTC", "SMF6.5A",
+          "3n3_C0G", "100n_C0G", "2p2", "470n_C0G", "47u_POLY", "1uH", "6u8H", "10uH", "3A_FAST", "10k_NTC", "SMF6.5A",
           "LED_GRN", "LED_YEL", "LED_RED", "LED_ORG", "AO3401A", "2N7002K", "SW_TACT", "SW_SLIDE", "XH_2P",
           "PH_2P", "BOX_2x05", "TPS62933FDRLR", "OPA4388IPWR", "USBLC6-2SC6", "ESP32-S3-WROOM-1-N16R2",
           "USB4105-GF-A", "+VBUS", "+VBAT", "+VSYS", "+VPRE", "+5V_RF", "+5V_A", "+V_LNA", "+3V3_D",
@@ -278,7 +278,7 @@ vpart("C22", "cwradar:12n", 33.02, Y0 + 3.81); gnd(33.02, Y0 + 7.62)
 vpart("R16", "cwradar:120", 43.18, Y0 + 3.81)
 wire((43.18, Y0 + 7.62), (43.18, Y0 + 10.16))
 label("LF_C2", 43.18, Y0 + 8.89, 90, small=True)
-vpart("C23", "cwradar:100n_PPS", 43.18, Y0 + 13.97); gnd(43.18, Y0 + 17.78)
+vpart("C23", "cwradar:100n_C0G", 43.18, Y0 + 13.97); gnd(43.18, Y0 + 17.78)
 hpart("R17", "cwradar:249", 55.88, Y0)
 wire((59.69, Y0), (78.74, Y0))
 vpart("C24", "cwradar:820p", 66.04, Y0 + 3.81); gnd(66.04, Y0 + 7.62)
@@ -357,10 +357,9 @@ wire(P["29"], (129.54, ry))
 label("REF_IN", 130.81, ry, 0, small=True)
 label("REF_25M", 121.92, ry, 180)
 
-# reference TCXO placeholder (part TBD), on the RC-filtered +3V3_SYN_REF branch
+# reference TCXO: CTS 525L25010ITR (25 MHz, +/-1 ppm, clipped sine), on the RC-filtered +3V3_SYN_REF branch
 YX, YY = 106.68, 104.14
-X = place("Y1", "cwradar:TCXO_2520", YX, YY,
-          value="25 MHz TCXO ±2.5 ppm clipped-sine — PART TBD", fp="",
+X = place("Y1", "cwradar:525L25010ITR", YX, YY,
           fields={"Reference": (96.52, 86.36, 0, False, "left"), "Value": (96.52, 88.9, 0, False, "left")})
 rail("+3V3_SYN_REF", *X["4"])
 gnd(*X["2"])
@@ -432,13 +431,13 @@ text("MAX2871 NOTES (DS Rev 4)\n"
      "- R8/R9 100k hold CE/RFOUT_EN low at boot.\n"
      "- Loop filter C22/R16/C23/R17/C24 = MAX2871 DS Rev 4 TOC table \"6.0 GHz closed-loop\n"
      "  phase noise\" config: fREF 50 MHz, fPFD 25 MHz, ~40 kHz BW, CP[3:0]=1111 (5.12 mA w/ RSET 5k1),\n"
-     "  integer N=240. Ours: N=232 @ fPFD 25 MHz. Confirm Kvco @ 5.8 GHz in ADIsimPLL. All loop-filter caps C0G/film.\n"
+     "  integer N=240. Ours: N=232 @ fPFD 25 MHz. Confirm Kvco @ 5.8 GHz in ADIsimPLL. All loop-filter caps C0G.\n"
      "- Firmware: program all regs twice at power-up (>=20 ms gap, order 5..0), RFA_EN/RFB_EN = 0 until second\n"
      "  pass; set MTLD=1 (reg4 b10) and MUTEDEL=1 (reg3 b17) so outputs mute when unlocked. PDP=1.\n"
      "- VCC_VCO on dedicated branch +3V3_SYN_VCO (R18). Pull-up node HF caps C26/C27: 2.2 pF GJM.\n"
      "- R12 (50R term) or J2 (SMA monitor): populate one. J1/J2: Molex 73251-1153 edge-launch SMA.\n"
      "- Bead-free star: R1-R3 0R 0603 branch links (fallback filter footprints). R4 10R + C4 10u = TCXO RC, fc ~1.6 kHz.\n"
-     "- +3V3_SYN from dedicated low-noise LDO (TBD); LC/pi filter at LDO input if fed from a switcher. REF_25M from TCXO (TBD).\n"
+     "- +3V3_SYN from dedicated low-noise LDO (TBD); LC/pi filter at LDO input if fed from a switcher. REF_25M from TCXO Y1 (CTS 525L25010ITR).\n"
      "- GND pins 8,9,11,18,21,27,31: own via each, not to EP. EP: >=9-via array.",
      96.52, 222.25, just="left top")
 TEXTS[-1] = (re.sub(r"\b(C|R|J|TP)(\d{1,2})\b", lambda m: m.group(1) + str(600 + int(m.group(2))), TEXTS[-1][0]),) + TEXTS[-1][1:]
@@ -1491,7 +1490,7 @@ for y, port, cref, bref, rref, cm in [(76.2, "IN_P", "C1", "R1", "R3", "C3"),
                                       (91.44, "IN_N", "C2", "R2", "R4", "C4")]:
     hlabel(port, 25.4, y, 180, "input")
     wire((25.4, y), (34.29, y))
-    hpart(cref, "cwradar:1u_PET", 38.1, y, extra=MATCH)
+    hpart(cref, "cwradar:470n_C0G", 38.1, y, extra=MATCH)
     wire((41.91, y), (54.61, y))
     if port == "IN_P":
         vpart(bref, "cwradar:100k", 48.26, y - 3.81, extra=MATCH)
@@ -1597,7 +1596,7 @@ box(200.66, 55.88, 251.46, 114.3, "LPF 3 kHz")
 # --------------------------------------------------------------------- OUTPUT
 wire(C3U["8"], (254.0, 91.44))
 label("BB_LPFOUT", 248.92, 91.44, 0, small=True)
-hpart("C12", "cwradar:1u_PET", 257.81, 91.44, extra=MATCH)
+hpart("C12", "cwradar:470n_C0G", 257.81, 91.44, extra=MATCH)
 wire((261.62, 91.44), (276.86, 91.44))
 hlabel("OUT", 276.86, 91.44, 0, "output")
 box(251.46, 55.88, 292.1, 114.3, "OUTPUT")
@@ -1643,7 +1642,8 @@ text("BASEBAND NOTES (one file, two instances: Baseband_I 8xx, Baseband_Q 9xx; e
      "- HPF unity Sallen-Key: C1 = C2 = 100n C0G 1206, R1 113k (to OUT), R2 226k (to VREF_BUF): f0 = 9.96 Hz, Q = 0.707.\n"
      "- Gain x4: 1 + 10.0k / 3.32k = 4.01. DNP alternates 10.0k (x2) / 1.10k (x10) in parallel with Rg.\n"
      "- LPF unity Sallen-Key: R1 = R2 = 11.3k, C1 6.8n (to OUT), C2 3.3n (to GND): f0 = 2.97 kHz, Q = 0.72.\n"
-     "- Output 1u PET film (no 2.2 uF PET/PEN/PPS stocked): with PCM1808 60k input, fc = 2.7 Hz.\n"
+     "- Coupling caps C1/C2/C12: 470n C0G 1206 (1 uF C0G is 1825/2220 only). Input with 100k bias: fc = 3.4 Hz;\n"
+     "  output into PCM1808 60k: fc = 5.6 Hz. Both well under the 10 Hz HPF (adds ~1.7 dB at 10 Hz, ~0.5 dB at 20 Hz).\n"
      "- VREF: 10.0k / 10.0k 0.1% from +5V_A = 2.500 V (mid-rail), 47u polymer, follower + 47R -> VREF_BUF + 100n C0G.\n"
      "  Bias, HPF R2, Rg and INA REF return to VREF_BUF only. No X5R/X7R on signal nets, VREF or VREF_BUF.\n"
      "- Op-amp OPA4388 (DigiKey sub for OPA4376, same pinout): zero-drift, no 1/f noise.",
@@ -1693,7 +1693,7 @@ hlabel("I2S_DOUT", 226.06, 104.14, 0, "output")
 label("ADC_DOUT", 204.47, 104.14, 0, small=True)
 text("fs and MCLK ratio set in firmware (datasheet: 8-96 kHz; SCKI 256/384/512 fs).\n"
      "MD1 = MD0 = GND: slave mode, ratio auto-detected. FMT low via R1001 = 24-bit I2S.\n"
-     "Inputs AC-coupled on the baseband sheets (1u film); VINL/R biased internally at VCC/2.\n"
+     "Inputs AC-coupled on the baseband sheets (470n C0G); VINL/R biased internally at VCC/2.\n"
      "VREF, VCC, VDD: 10u + 100n each (DS 10.1.1, 10.1.4).", 142.24, 124.46, just="left top")
 box(139.7, 66.04, 254.0, 147.32, "PCM1808 ADC")
 done_sheet("ADC", "ADC", "adc.kicad_sch")
